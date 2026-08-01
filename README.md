@@ -81,12 +81,12 @@
 
 <div align="center">
 
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=lyndon18-star&show_icons=true&theme=dark&hide_border=false" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lyndon18-star&layout=compact&theme=dark&hide_border=false" />
+  <img height="180em" src="(https://github-readme-stats.shion.dev/api?username=lyndon18-star&theme=dark&hide_border=false&include_all_commits=false&count_private=false)" />
+  <img height="180em" src="(https://streak-stats.demolab.com/?user=lyndon18-star&theme=dark&hide_border=false)" />
 
   <br /><br />
 
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=lyndon18-star&theme=dark&hide_border=false" />
+  <img src="(https://github-readme-stats.shion.dev/api/top-langs/?username=lyndon18-star&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)" />
 
 </div>
 
