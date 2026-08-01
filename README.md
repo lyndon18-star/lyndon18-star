@@ -13,7 +13,7 @@ I am a motivated and hardworking IT student with a passion for learning, technol
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=lyndon18-star&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
 ## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=lyndon18-star&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+[![github-trophy](https://vercel.app)](https://github.com)
 
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
