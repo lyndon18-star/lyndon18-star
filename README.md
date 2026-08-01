@@ -95,7 +95,7 @@
 ### 🏆 GitHub Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=lyndon18-star&theme=darkhub&no-frame=false&margin-w=4" />
+  <img src="(https://github-contributor-stats.vercel.app/api?username=lyndon18-star&limit=5&theme=dark&combine_all_yearly_contributions=true)" />
 </div>
 
 ---
