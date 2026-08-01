@@ -81,12 +81,9 @@
 
 <div align="center">
 
-  <img height="180em" src="(https://github-readme-stats.shion.dev/api?username=lyndon18-star&theme=dark&hide_border=false&include_all_commits=false&count_private=false)" />
-  <img height="180em" src="(https://streak-stats.demolab.com/?user=lyndon18-star&theme=dark&hide_border=false)" />
-
-  <br /><br />
-
-  <img src="(https://github-readme-stats.shion.dev/api/top-langs/?username=lyndon18-star&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)" />
+![](https://github-readme-stats.shion.dev/api?username=lyndon18-star&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
+![](https://streak-stats.demolab.com/?user=lyndon18-star&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.shion.dev/api/top-langs/?username=lyndon18-star&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
 </div>
 
