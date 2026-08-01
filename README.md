@@ -13,7 +13,7 @@ I am a motivated and hardworking IT student with a passion for learning, technol
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=lyndon18-star&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
 ## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=lyndon18-star&theme=radical&no-frame=false&no-bg=false&margin-w=4)
+![](https://github-profile-trophy.vercel.app/?username=lyndon18-star&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
@@ -22,6 +22,6 @@ I am a motivated and hardworking IT student with a passion for learning, technol
 ![](https://github-contributor-stats.vercel.app/api?username=lyndon18-star&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
 ---
-[![](https://komarev.com/ghpvc/?username=lyndon18-star&icon=0&color=0)](https://visitcount.itsvg.in)
+[![](https://komarev.com/ghpvc/?username=lyndon18-star&icon=2&color=0)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
