@@ -21,12 +21,13 @@
   <img src="https://img.shields.io/badge/Developer-F778BA?style=for-the-badge&logo=devdotto&logoColor=white" />
 </div>
 
-I am a motivated and hardworking IT student who loves turning ideas into polished digital experiences. I focus on modern web design, clean code, and strong collaboration so every project feels professional and engaging.
+<<<<<<< HEAD
+I am a motivated IT student who loves turning ideas into polished digital experiences. I focus on modern web design, clean code, and strong collaboration so every project feels professional and engaging.
 
-- 🔭 Learning React, Tailwind CSS, next-level JavaScript, and responsive UI design
-- 👯 Open to teamwork on web apps, automation tools, and student-focused technology
-- 🌱 Growing in backend systems, REST APIs, and deployment with Vercel
-- 💬 I enjoy sharing knowledge, helping others, and improving every day
+- 🔭 Learning React, Tailwind CSS, advanced JavaScript, and responsive UI design
+- 👯 Open to collaborate on web apps, automation tools, and student tech projects
+- 🌱 Growing in backend development, REST APIs, and deployment workflows
+- 💬 Passionate about learning, sharing knowledge, and making real impact
 
 ---
 
@@ -49,12 +50,13 @@ I am a motivated and hardworking IT student who loves turning ideas into polishe
 ## 🚀 Projects
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Live%20Portfolio-Upcoming-7C3AED?style=for-the-badge&logo=internet-explorer&logoColor=white" />
+  <img src="https://img.shields.io/badge/Live%20Portfolio-Upcoming-7C3AED?style=for-the-badge&logo=webbrowser&logoColor=white" />
   <img src="https://img.shields.io/badge/React%20App-In%20Progress-22C55E?style=for-the-badge&logo=react&logoColor=white" />
   <img src="https://img.shields.io/badge/Automation-Tools-0EA5E9?style=for-the-badge&logo=github-actions&logoColor=white" />
 </div>
 
-> Want a modern portfolio? Keep this updated with your best repos and project highlights for a stronger GitHub profile.
+<<<<<<< HEAD
+> Keep this section updated with your best work and project stories so visitors see your strongest skills first.
 
 ---
 
@@ -67,11 +69,11 @@ I am a motivated and hardworking IT student who loves turning ideas into polishe
   <strong>Backend & Databases</strong><br />
   <img src="https://skillicons.dev/icons?i=php,python,nodejs,java,csharp,c,cpp,mysql,postgres,mongodb&perline=8" alt="Backend stack" />
   <br /><br />
-  <strong>Tools & Design</strong><br />
+  <strong>Tools & Productivity</strong><br />
   <img src="https://skillicons.dev/icons?i=git,github,figma,canva,vercel&perline=5" alt="Tools stack" />
 </div>
 
-> ⚡ The tech stack uses modern badge icons and a clean grouped layout for easy scanning.
+> ⚡ Modern badge icons and grouped layout make it easy to read your stack at a glance.
 
 ---
 
