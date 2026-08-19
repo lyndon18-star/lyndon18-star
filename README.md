@@ -1,8 +1,47 @@
 <div align="center">
+  <!-- Header Accent - Dual Circuit Lines with Pulse Rings -->
+  <svg width="100%" height="40" viewBox="0 0 1000 40" fill="none" xmlns="http://www.w3.org/2000/svg" style="max-width:100%; height:auto;">
+    <defs>
+      <linearGradient id="accentGrad" x1="0%" y1="50%" x2="100%" y2="50%">
+        <stop offset="0%" stop-color="#38BDF8" stop-opacity="0"/>
+        <stop offset="50%" stop-color="#38BDF8" stop-opacity="1"/>
+        <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+      </linearGradient>
+      <radialGradient id="pulseGrad" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#38BDF8" stop-opacity="1"/>
+        <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+    <!-- Top circuit line -->
+    <path d="M0 12 Q200 8 500 12 T1000 12" stroke="url(#accentGrad)" stroke-width="1.5" fill="none" stroke-dasharray="10 8">
+      <animate attributeName="stroke-dashoffset" from="0" to="36" dur="3s" repeatCount="indefinite"/>
+    </path>
+    <!-- Bottom circuit line -->
+    <path d="M0 28 Q200 32 500 28 T1000 28" stroke="url(#accentGrad)" stroke-width="1.5" fill="none" stroke-dasharray="10 8">
+      <animate attributeName="stroke-dashoffset" from="0" to="36" dur="3s" repeatCount="indefinite" begin="0.5s"/>
+    </path>
+    <!-- Pulsing center ring -->
+    <circle cx="500" cy="20" r="8" fill="url(#pulseGrad)">
+      <animate attributeName="r" values="8;25;8" dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0;0.6" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Small connection nodes -->
+    <g fill="#38BDF8" opacity="0.5">
+      <circle cx="200" cy="20" r="2.5"><animate attributeName="cy" values="20;12;20" dur="2s" repeatCount="indefinite"/></circle>
+      <circle cx="400" cy="20" r="2.5"><animate attributeName="cy" values="20;28;20" dur="2s" repeatCount="indefinite" begin="0.3s"/></circle>
+      <circle cx="600" cy="20" r="2.5"><animate attributeName="cy" values="20;12;20" dur="2s" repeatCount="indefinite" begin="0.6s"/></circle>
+      <circle cx="800" cy="20" r="2.5"><animate attributeName="cy" values="20;28;20" dur="2s" repeatCount="indefinite" begin="0.9s"/></circle>
+    </g>
+  </svg>
+  <br />
+
+  <!-- Profile Header -->
   <a href="https://github.com/lyndon18-star">
-    <img src="https://github.com/lyndon18-star.png" width="130" height="130" style="border-radius:50%; border:4px solid #38bdf8; box-shadow:0 0 30px rgba(56,189,248,0.3);" alt="Lyndon Bautista" />
+    <img src="https://github.com/lyndon18-star.png" width="130" height="130" style="border-radius:50%; border:4px solid #38bdf8; box-shadow:0 0 30px rgba(56,189,248,0.3); animation: pulse-ring 3s ease-in-out infinite;" alt="Lyndon Bautista" />
   </a>
   <br /><br />
+
+  <!-- Typing Animation Header -->
   <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=40&pause=1000&color=38BDF8&center=true&width=700&height=70&lines=Lyndon+Bautista;IT+Student+%7C+Full-Stack+Developer;Building+Useful+Software" alt="Typing Header" />
   <br /><br />
 
@@ -22,55 +61,9 @@
 
 <br />
 
-<!-- Animated Circuit Divider -->
+<!-- Tech Wave Divider - 3-Layer Animated Waves -->
 <div align="center">
-  <svg width="100%" height="80" viewBox="0 0 1000 80" fill="none" xmlns="http://www.w3.org/2000/svg" style="max-width:100%; height:auto;">
-    <defs>
-      <linearGradient id="circuitGrad" x1="0%" y1="50%" x2="100%" y2="50%">
-        <stop offset="0%" stop-color="#38BDF8" stop-opacity="0"/>
-        <stop offset="50%" stop-color="#38BDF8" stop-opacity="1"/>
-        <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
-      </linearGradient>
-      <radialGradient id="glowGrad" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stop-color="#38BDF8" stop-opacity="1"/>
-        <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
-      </radialGradient>
-    </defs>
-    <!-- Main circuit path -->
-    <path d="M0 40 Q200 10 500 40 T1000 40" stroke="url(#circuitGrad)" stroke-width="2" fill="none" stroke-dasharray="12 6">
-      <animate attributeName="stroke-dashoffset" from="0" to="36" dur="2s" repeatCount="indefinite"/>
-    </path>
-    <!-- Pulsing nodes -->
-    <g fill="url(#glowGrad)">
-      <circle cx="150" cy="40" r="5">
-        <animate attributeName="r" values="5;12;5" dur="2s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="350" cy="40" r="5">
-        <animate attributeName="r" values="5;12;5" dur="2s" repeatCount="indefinite" begin="0.4s"/>
-        <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" begin="0.4s"/>
-      </circle>
-      <circle cx="550" cy="40" r="5">
-        <animate attributeName="r" values="5;12;5" dur="2s" repeatCount="indefinite" begin="0.8s"/>
-        <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" begin="0.8s"/>
-      </circle>
-      <circle cx="750" cy="40" r="5">
-        <animate attributeName="r" values="5;12;5" dur="2s" repeatCount="indefinite" begin="1.2s"/>
-        <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" begin="1.2s"/>
-      </circle>
-      <circle cx="950" cy="40" r="5">
-        <animate attributeName="r" values="5;12;5" dur="2s" repeatCount="indefinite" begin="1.6s"/>
-        <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" begin="1.6s"/>
-      </circle>
-    </g>
-    <!-- Small connection dots -->
-    <g fill="#38BDF8" opacity="0.3">
-      <circle cx="250" cy="40" r="3"/>
-      <circle cx="450" cy="40" r="3"/>
-      <circle cx="650" cy="40" r="3"/>
-      <circle cx="850" cy="40" r="3"/>
-    </g>
-  </svg>
+  <img src="assets/tech-wave.svg" width="100%" style="max-width:100%; height:auto;" alt="Tech Wave Divider" />
 </div>
 
 <br />
@@ -126,6 +119,13 @@
 
 <br />
 
+<!-- Animated Stats Counters -->
+<div align="center">
+  <img src="assets/stats-counters.svg" width="100%" style="max-width:800px; height:auto;" alt="Animated Stats Counters" />
+</div>
+
+<br />
+
 ---
 
 ## 💡 How I Build
@@ -143,7 +143,12 @@
 
 <br />
 
----
+<!-- Section Divider with Pulse -->
+<div align="center">
+  <img src="assets/section-divider.svg" width="100%" style="max-width:100%; height:auto;" alt="Section Divider" />
+</div>
+
+<br />
 
 ## 🚀 Featured Projects
 
@@ -255,7 +260,12 @@
 
 <br />
 
----
+<!-- Wave Divider -->
+<div align="center">
+  <img src="assets/divider-wave.svg" width="100%" style="max-width:100%; height:auto;" alt="Wave Divider" />
+</div>
+
+<br />
 
 ## 🧰 Toolbox
 
@@ -272,6 +282,13 @@
 ### Desktop & DevOps
 <img src="https://skillicons.dev/icons?i=javafx,maven,git,github,docker,vercel,linux,vscode,githubactions,figma,postman" />
 
+</div>
+
+<br />
+
+<!-- Floating Badge -->
+<div align="center">
+  <img src="assets/floating-badge.svg" width="100%" style="max-width:200px; height:auto;" alt="Open Source Contributor Badge" />
 </div>
 
 <br />
@@ -295,6 +312,20 @@
 
 <br />
 
+<!-- Skill Radar Chart -->
+<div align="center">
+  <img src="assets/skill-radar.svg" width="400" height="400" style="max-width:100%; height:auto;" alt="Skill Radar Chart" />
+</div>
+
+<br />
+
+<!-- Code Animation -->
+<div align="center">
+  <img src="assets/code-animation.svg" width="100%" style="max-width:600px; height:auto;" alt="Code Animation" />
+</div>
+
+<br />
+
 <!-- Contribution Snake Animation -->
 <div align="center">
   <img src="https://raw.githubusercontent.com/lyndon18-star/lyndon18-star/dist/github-contribution-grid-snake.svg" alt="Contribution Snake" style="max-width:100%; border-radius:12px; border:1px solid #30363D;" />
@@ -312,7 +343,7 @@
 
 ## 📈 Activity Overview
 
-<div align="center">
+<div align="center>
   <!-- WakaTime (if available) -->
   <img src="https://github-readme-stats.vercel.app/api/wakatime?username=lyndon18-star&theme=transparent&hide_border=true&bg_color=0d1117,161b22,0d1117&title_color=38BDF8&text_color=E2E8F0&border_color=30363D&custom_title=Coding+Activity&layout=compact" alt="WakaTime" />
   <br /><br />
@@ -323,6 +354,13 @@
 
   <!-- Visitor Map -->
   <img src="https://visitor-badge.laobi.icu/badge?page_id=lyndon18-star.lyndon18-star&left_color=0B1220&right_color=38BDF8" alt="Visitor Map" />
+</div>
+
+<br />
+
+<!-- Particles Background -->
+<div align="center">
+  <img src="assets/particles-bg.svg" width="100%" style="max-width:100%; height:auto;" alt="Particles Background" />
 </div>
 
 <br />
@@ -396,5 +434,11 @@
   - divider-wave.svg — Animated wave section divider
   - section-divider.svg — Minimal line divider with pulse
   - header-accent.svg — Dual circuit lines with pulse rings
+  - particles-bg.svg — Floating geometric particles + animated code brackets
+  - skill-radar.svg — Animated radar chart with 8 axes
+  - code-animation.svg — Typing code animation in terminal
+  - stats-counters.svg — 4 animated counter cards with circuit connections
+  - floating-badge.svg — Pulsing open source contributor badge
+  - tech-wave.svg — 3-layer animated waves with floating tech labels
   See assets/README.md for usage guide
 -->
