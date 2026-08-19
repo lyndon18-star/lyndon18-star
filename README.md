@@ -1,112 +1,400 @@
 <div align="center">
   <a href="https://github.com/lyndon18-star">
-    <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=42&pause=1000&color=58A6FF&center=true&width=720&height=100&lines=Hey%2C+I'm+Lyndon+%F0%9F%90%8B;IT+Student+%E2%9A%94%EF%B8%8F+Developer+%F0%9F%92%BB;Building+Modern+Experiences..." alt="Typing Header" />
+    <img src="https://github.com/lyndon18-star.png" width="130" height="130" style="border-radius:50%; border:4px solid #38bdf8; box-shadow:0 0 30px rgba(56,189,248,0.3);" alt="Lyndon Bautista" />
   </a>
-
-  <p>
-    <a href="#about"><img src="https://img.shields.io/badge/About-Me-388BFD?style=for-the-badge&logo=github&logoColor=white" /></a>
-    <a href="#socials"><img src="https://img.shields.io/badge/Socials-8B5CF6?style=for-the-badge&logo=github&logoColor=white" /></a>
-    <a href="#tech-stack"><img src="https://img.shields.io/badge/Tech-Stack-14B8A6?style=for-the-badge&logo=visualstudiocode&logoColor=white" /></a>
-    <a href="#dashboard"><img src="https://img.shields.io/badge/Dashboard-F472B6?style=for-the-badge&logo=github&logoColor=white" /></a>
-  </p>
-</div>
-
----
-
-## 💫 About Me
-
-<div align="center">
-  <img src="https://img.shields.io/badge/IT_Student-388BFD?style=for-the-badge&logo=student&logoColor=white" />
-  <img src="https://img.shields.io/badge/Student_Leader-BC8CFF?style=for-the-badge&logo=leaderboard&logoColor=white" />
-  <img src="https://img.shields.io/badge/Developer-F778BA?style=for-the-badge&logo=devdotto&logoColor=white" />
-</div>
-
-<<<<<<< HEAD
-I am a motivated IT student who loves turning ideas into polished digital experiences. I focus on modern web design, clean code, and strong collaboration so every project feels professional and engaging.
-
-- 🔭 Learning React, Tailwind CSS, advanced JavaScript, and responsive UI design
-- 👯 Open to collaborate on web apps, automation tools, and student tech projects
-- 🌱 Growing in backend development, REST APIs, and deployment workflows
-- 💬 Passionate about learning, sharing knowledge, and making real impact
-
----
-
-## 🌐 Socials
-
-<div align="center">
-  <a href="https://discord.gg/981812902170349578"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" /></a>
-  <a href="https://facebook.com/lyndon.bautista.680329"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" /></a>
-  <a href="https://instagram.com/cheesypuppin_"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
-  <a href="https://linkedin.com/in/lyndon-bautista-abb580395"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://pinterest.com/lyndonbtst"><img src="https://img.shields.io/badge/Pinterest-E60023?style=for-the-badge&logo=pinterest&logoColor=white" /></a>
-  <a href="https://reddit.com/user/Bautista_Lyndon"><img src="https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white" /></a>
-  <a href="https://tiktok.com/@wimp_sy"><img src="https://img.shields.io/badge/TikTok-black?style=for-the-badge&logo=tiktok&logoColor=white" /></a>
-  <a href="https://x.com/lyndon_yur"><img src="https://img.shields.io/badge/X-black?style=for-the-badge&logo=x&logoColor=white" /></a>
-  <a href="mailto:lyndobtst@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-</div>
-
----
-
-## 🚀 Projects
-
-<div align="center">
-  <img src="https://img.shields.io/badge/Live%20Portfolio-Upcoming-7C3AED?style=for-the-badge&logo=webbrowser&logoColor=white" />
-  <img src="https://img.shields.io/badge/React%20App-In%20Progress-22C55E?style=for-the-badge&logo=react&logoColor=white" />
-  <img src="https://img.shields.io/badge/Automation-Tools-0EA5E9?style=for-the-badge&logo=github-actions&logoColor=white" />
-</div>
-
-<<<<<<< HEAD
-> Keep this section updated with your best work and project stories so visitors see your strongest skills first.
-
----
-
-## 💻 Tech Stack
-
-<div align="center">
-  <strong>Languages & Frontend</strong><br />
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,tailwind,bootstrap&perline=7" alt="Frontend stack" />
   <br /><br />
-  <strong>Backend & Databases</strong><br />
-  <img src="https://skillicons.dev/icons?i=php,python,nodejs,java,csharp,c,cpp,mysql,postgres,mongodb&perline=8" alt="Backend stack" />
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=40&pause=1000&color=38BDF8&center=true&width=700&height=70&lines=Lyndon+Bautista;IT+Student+%7C+Full-Stack+Developer;Building+Useful+Software" alt="Typing Header" />
   <br /><br />
-  <strong>Tools & Productivity</strong><br />
-  <img src="https://skillicons.dev/icons?i=git,github,figma,canva,vercel&perline=5" alt="Tools stack" />
+
+  <!-- Identity Badges -->
+  <img src="https://img.shields.io/badge/Manila-%F0%9F%87%B5%F0%9F%87%AD-0B1220?style=for-the-badge&logo=google-maps&logoColor=38BDF8" />
+  <img src="https://img.shields.io/badge/2nd+Year+IT+Student-38BDF8?style=for-the-badge&logo=student&logoColor=0B1220" />
+  <img src="https://img.shields.io/badge/Open+to+Collaboration-22C55E?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Available+for+Internship-FBBF24?style=for-the-badge&logo=briefcase&logoColor=0B1220" />
+  <br /><br />
+
+  <!-- Social Proof -->
+  <img src="https://img.shields.io/github/followers/lyndon18-star?label=Followers&style=flat-square&color=38BDF8&logo=github" />
+  <img src="https://img.shields.io/github/stars/lyndon18-star?label=Stars&style=flat-square&color=FBBF24&logo=star" />
+  <img src="https://img.shields.io/github/commit-activity/y/lyndon18-star?label=Commits%2FYear&style=flat-square&color=A78BFA&logo=github" />
+  <img src="https://img.shields.io/github/repo-size/lyndon18-star/lyndon18-star?label=Profile%20Size&style=flat-square&color=F472B6&logo=database" />
 </div>
 
-> ⚡ Modern badge icons and grouped layout make it easy to read your stack at a glance.
+<br />
+
+<!-- Animated Circuit Divider -->
+<div align="center">
+  <svg width="100%" height="80" viewBox="0 0 1000 80" fill="none" xmlns="http://www.w3.org/2000/svg" style="max-width:100%; height:auto;">
+    <defs>
+      <linearGradient id="circuitGrad" x1="0%" y1="50%" x2="100%" y2="50%">
+        <stop offset="0%" stop-color="#38BDF8" stop-opacity="0"/>
+        <stop offset="50%" stop-color="#38BDF8" stop-opacity="1"/>
+        <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+      </linearGradient>
+      <radialGradient id="glowGrad" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#38BDF8" stop-opacity="1"/>
+        <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+    <!-- Main circuit path -->
+    <path d="M0 40 Q200 10 500 40 T1000 40" stroke="url(#circuitGrad)" stroke-width="2" fill="none" stroke-dasharray="12 6">
+      <animate attributeName="stroke-dashoffset" from="0" to="36" dur="2s" repeatCount="indefinite"/>
+    </path>
+    <!-- Pulsing nodes -->
+    <g fill="url(#glowGrad)">
+      <circle cx="150" cy="40" r="5">
+        <animate attributeName="r" values="5;12;5" dur="2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="350" cy="40" r="5">
+        <animate attributeName="r" values="5;12;5" dur="2s" repeatCount="indefinite" begin="0.4s"/>
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" begin="0.4s"/>
+      </circle>
+      <circle cx="550" cy="40" r="5">
+        <animate attributeName="r" values="5;12;5" dur="2s" repeatCount="indefinite" begin="0.8s"/>
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" begin="0.8s"/>
+      </circle>
+      <circle cx="750" cy="40" r="5">
+        <animate attributeName="r" values="5;12;5" dur="2s" repeatCount="indefinite" begin="1.2s"/>
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" begin="1.2s"/>
+      </circle>
+      <circle cx="950" cy="40" r="5">
+        <animate attributeName="r" values="5;12;5" dur="2s" repeatCount="indefinite" begin="1.6s"/>
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" begin="1.6s"/>
+      </circle>
+    </g>
+    <!-- Small connection dots -->
+    <g fill="#38BDF8" opacity="0.3">
+      <circle cx="250" cy="40" r="3"/>
+      <circle cx="450" cy="40" r="3"/>
+      <circle cx="650" cy="40" r="3"/>
+      <circle cx="850" cy="40" r="3"/>
+    </g>
+  </svg>
+</div>
+
+<br />
+
+## 🎯 I Build Practical Software
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="33%">
+        <img src="https://img.shields.io/badge/%F0%9F%8E%A8%EF%B8%8F-Websites-38BDF8?style=for-the-badge&logo=web&logoColor=0B1220" />
+        <br /><sub>Modern, responsive, accessible</sub>
+      </td>
+      <td align="center" width="33%">
+        <img src="https://img.shields.io/badge/%F0%9F%93%8A-Business+Systems-22C55E?style=for-the-badge&logo=database&logoColor=white" />
+        <br /><sub>Reliable, scalable, maintainable</sub>
+      </td>
+      <td align="center" width="33%">
+        <img src="https://img.shields.io/badge/%E2%9A%A1%EF%B8%8F-Automation-FBBF24?style=for-the-badge&logo=zapier&logoColor=0B1220" />
+        <br /><sub>Save time, reduce errors</sub>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<p align="center">
+  <strong>Clean interfaces. Reliable backends. Tools people actually use.</strong><br />
+  I'm a 2nd-year IT student from Manila who enjoys turning messy problems into working software.
+  Currently shipping projects across web, desktop, and automation — with live demos you can try.
+</p>
+
+<br />
+
+<!-- Status Panel -->
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" style="padding: 0 20px;">
+        <img src="https://img.shields.io/badge/%F0%9F%92%BB-Currently+Building-38BDF8?style=for-the-badge&logo=rocket&logoColor=0B1220" />
+        <br /><sub><strong>Portfolio Website</strong> — Next.js + Tailwind + MDX</sub>
+      </td>
+      <td align="center" style="padding: 0 20px;">
+        <img src="https://img.shields.io/badge/%F0%9F%93%9A-Learning-A78BFA?style=for-the-badge&logo=book&logoColor=white" />
+        <br /><sub><strong>Product Decisions</strong> · <strong>Reliable Backends</strong> · <strong>System Design</strong></sub>
+      </td>
+      <td align="center" style="padding: 0 20px;">
+        <img src="https://img.shields.io/badge/%F0%9F%91%AB-Available+For-22C55E?style=for-the-badge&logo=handshake&logoColor=white" />
+        <br /><sub><strong>Internship</strong> · <strong>Freelance</strong> · <strong>Open Source</strong></sub>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br />
 
 ---
 
-## 📊 GitHub Dashboard
+## 💡 How I Build
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=lyndon18-star&theme=dark&show_icons=true&locale=en&hide_border=false&include_all_commits=true&count_private=false" alt="GitHub Stats" />
-  <br /><br />
-  <img src="https://streak-stats.demolab.com/?user=lyndon18-star&theme=dark&hide_border=false" alt="GitHub Streak Stats" />
-  <br /><br />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lyndon18-star&theme=dark&hide_border=false&layout=compact" alt="Top Languages" />
+
+| # | Principle | What It Means in Practice |
+|---|-----------|---------------------------|
+| **1** | **Find the expensive friction** | Talk to users, spot the manual work that burns time, automate that first |
+| **2** | **Ship the smallest useful version** | One working feature > ten planned ones; iterate from real feedback |
+| **3** | **Design for the real environment** | Mobile-first, offline-aware, graceful degradation — not happy-path only |
+| **4** | **Leave it understandable** | Clear naming, documented decisions, tests that explain the *why* |
+
 </div>
+
+<br />
 
 ---
 
-## ✍️ Random Dev Quote
+## 🚀 Featured Projects
 
 <div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Random Dev Quote" />
+  <em>Real projects with live demos — click through to try them</em>
 </div>
+
+<br />
+
+### 1. 🎨 Portfolio Website — *In Progress*
+**My personal portfolio built with Next.js 14, Tailwind CSS, and MDX for blog/posts.**
+<div align="center">
+  <a href="https://github.com/lyndon18-star/WEBSITE-LYNDON" target="_blank">
+    <img src="https://img.shields.io/badge/Source-0B1220?style=for-the-badge&logo=github&logoColor=38BDF8" />
+  </a>
+  <a href="https://lyndon18-star.github.io/WEBSITE-LYNDON/" target="_blank">
+    <img src="https://img.shields.io/badge/Live+Demo-38BDF8?style=for-the-badge&logo=githubpages&logoColor=white" />
+  </a>
+  <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=next.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind-38BDF8?style=flat-square&logo=tailwindcss&logoColor=0B1220" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/MDX-000?style=flat-square&logo=mdx&logoColor=white" />
+</div>
+
+<br />
+
+### 2. ❤️ Parakay Lalove — *JavaScript Project*
+**A heartfelt project — details in the repo.**
+<div align="center">
+  <a href="https://github.com/lyndon18-star/parakay-lalove" target="_blank">
+    <img src="https://img.shields.io/badge/Source-0B1220?style=for-the-badge&logo=github&logoColor=38BDF8" />
+  </a>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=0B1220" />
+</div>
+
+<br />
+
+### 3. 🎭 IIYAK — *JavaScript Project*
+**Interactive web application — explore the repo for details.**
+<div align="center">
+  <a href="https://github.com/lyndon18-star/IIYAK" target="_blank">
+    <img src="https://img.shields.io/badge/Source-0B1220?style=for-the-badge&logo=github&logoColor=38BDF8" />
+  </a>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=0B1220" />
+</div>
+
+<br />
+
+### 4. 🏛️ MUSEUM — *JavaScript Project*
+**Museum-themed web experience — check the source.**
+<div align="center">
+  <a href="https://github.com/lyndon18-star/MUSEUM" target="_blank">
+    <img src="https://img.shields.io/badge/Source-0B1220?style=for-the-badge&logo=github&logoColor=38BDF8" />
+  </a>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=0B1220" />
+</div>
+
+<br />
+
+### 5. ⚙️ SYSTEM-20 — *Java Desktop Application* ⭐
+**System 20 — A Java desktop application (1 star).**
+<div align="center">
+  <a href="https://github.com/lyndon18-star/SYSTEM-20" target="_blank">
+    <img src="https://img.shields.io/badge/Source-0B1220?style=for-the-badge&logo=github&logoColor=38BDF8" />
+  </a>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaFX-000?style=flat-square&logo=java&logoColor=white" />
+</div>
+
+<br />
+
+### 6. 🌐 Labuweb — *HTML/CSS Website*
+**Personal web project — HTML-based.**
+<div align="center">
+  <a href="https://github.com/lyndon18-star/labuweb" target="_blank">
+    <img src="https://img.shields.io/badge/Source-0B1220?style=for-the-badge&logo=github&logoColor=38BDF8" />
+  </a>
+  <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white" />
+</div>
+
+<br />
+
+### 7. 🚪 GATHERGATE — *Project*
+**Project with the tagline "BASTA" — explore to learn more.**
+<div align="center">
+  <a href="https://github.com/lyndon18-star/GATHERGATE" target="_blank">
+    <img src="https://img.shields.io/badge/Source-0B1220?style=for-the-badge&logo=github&logoColor=38BDF8" />
+  </a>
+</div>
+
+<br />
+
+### 8. 🔧 Portfolio Backend — *Backend API*
+**Backend for portfolio — API layer.**
+<div align="center">
+  <a href="https://github.com/lyndon18-star/portfolio-backend" target="_blank">
+    <img src="https://img.shields.io/badge/Source-0B1220?style=for-the-badge&logo=github&logoColor=38BDF8" />
+  </a>
+</div>
+
+<br />
+
+<div align="center">
+  <a href="https://github.com/lyndon18-star?tab=repositories" target="_blank">
+    <img src="https://img.shields.io/badge/Explore+All+11+Repositories-%E2%86%92-38BDF8?style=for-the-badge&logo=github&logoColor=0B1220" />
+  </a>
+</div>
+
+<br />
 
 ---
 
-## 🏆 GitHub Trophies
+## 🧰 Toolbox
 
 <div align="center">
-  <img src="(https://github-contributor-stats.vercel.app/api?username=lyndon18-star&limit=5&theme=white&combine_all_yearly_contributions=true)" />
+
+### Frontend & Mobile
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,bootstrap,vue,svelte,vite" />
+<br /><br />
+
+### Backend & APIs
+<img src="https://skillicons.dev/icons?i=nodejs,php,python,fastapi,java,mysql,postgres,mongodb,redis,graphql,supabase,express" />
+<br /><br />
+
+### Desktop & DevOps
+<img src="https://skillicons.dev/icons?i=javafx,maven,git,github,docker,vercel,linux,vscode,githubactions,figma,postman" />
+
 </div>
+
+<br />
 
 ---
 
+## 📊 GitHub Analytics
+
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=lyndon18-star&label=Profile%20Views&color=0e75b6&style=flat-square" alt="Profile views" />
+  <!-- Stats Card -->
+  <img src="https://github-readme-stats.vercel.app/api?username=lyndon18-star&theme=transparent&show_icons=true&locale=en&hide_border=true&include_all_commits=true&count_private=false&bg_color=0d1117,161b22,0d1117&title_color=38BDF8&text_color=E2E8F0&icon_color=38BDF8&border_color=30363D&custom_title=GitHub+Stats" alt="GitHub Stats" />
   <br /><br />
-  Made with 💙 · <strong>lyndon18-star</strong>
+
+  <!-- Streak Stats -->
+  <img src="https://streak-stats.demolab.com/?user=lyndon18-star&theme=transparent&hide_border=true&background=0d1117,161b22,0d1117&stroke=38BDF8&ring=38BDF8&fire=22C55E&currStreakLabel=38BDF8&sideNums=E2E8F0&sideLabels=94A3B8&dates=64748B&border=30363D" alt="GitHub Streak" />
+  <br /><br />
+
+  <!-- Top Languages -->
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lyndon18-star&theme=transparent&hide_border=true&layout=compact&bg_color=0d1117,161b22,0d1117&title_color=38BDF8&text_color=E2E8F0&border_color=30363D&custom_title=Top+Languages&langs_count=10" alt="Top Languages" />
 </div>
+
+<br />
+
+<!-- Contribution Snake Animation -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/lyndon18-star/lyndon18-star/dist/github-contribution-grid-snake.svg" alt="Contribution Snake" style="max-width:100%; border-radius:12px; border:1px solid #30363D;" />
+  <br /><br />
+</div>
+
+<!-- Trophies -->
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=lyndon18-star&theme=radical&no-bg=true&no-frame=true&column=7&margin-w=15&margin-h=15" alt="GitHub Trophies" />
+</div>
+
+<br />
+
+---
+
+## 📈 Activity Overview
+
+<div align="center">
+  <!-- WakaTime (if available) -->
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=lyndon18-star&theme=transparent&hide_border=true&bg_color=0d1117,161b22,0d1117&title_color=38BDF8&text_color=E2E8F0&border_color=30363D&custom_title=Coding+Activity&layout=compact" alt="WakaTime" />
+  <br /><br />
+
+  <!-- Profile Views -->
+  <img src="https://komarev.com/ghpvc/?username=lyndon18-star&label=Profile+Views&color=38BDF8&style=flat-square" alt="Profile views" />
+  <br /><br />
+
+  <!-- Visitor Map -->
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=lyndon18-star.lyndon18-star&left_color=0B1220&right_color=38BDF8" alt="Visitor Map" />
+</div>
+
+<br />
+
+---
+
+## 📬 Let's Connect
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center" width="20%">
+      <a href="https://github.com/lyndon18-star" target="_blank">
+        <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+      </a>
+    </td>
+    <td align="center" width="20%">
+      <a href="https://linkedin.com/in/lyndon-bautista-abb580395" target="_blank">
+        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+      </a>
+    </td>
+    <td align="center" width="20%">
+      <a href="https://x.com/lyndon_yur" target="_blank">
+        <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" />
+      </a>
+    </td>
+    <td align="center" width="20%">
+      <a href="https://discord.gg/981812902170349578" target="_blank">
+        <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" />
+      </a>
+    </td>
+    <td align="center" width="20%">
+      <a href="mailto:lyndobtst@gmail.com" target="_blank">
+        <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+      </a>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+<!-- Primary CTAs -->
+<a href="https://github.com/lyndon18-star" target="_blank">
+  <img src="https://img.shields.io/badge/Follow+on+GitHub-%E2%86%92-38BDF8?style=for-the-badge&logo=github&logoColor=0B1220" />
+</a>
+<a href="mailto:lyndobtst@gmail.com">
+  <img src="https://img.shields.io/badge/Say+Hi+%F0%9F%91%8B-22C55E?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+
+</div>
+
+<br />
+
+---
+
+<div align="center">
+  <sub>
+    Built with <span style="color:#38BDF8">💙</span> by <strong>lyndon18-star</strong> ·
+    Inspired by <a href="https://github.com/mightbechr1s" target="_blank">@mightbechr1s</a> ·
+    <a href="https://github.com/lyndon18-star/lyndon18-star" target="_blank">View Source</a>
+  </sub>
+  <br /><br />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0B1220,1E293B,38BDF8&height=100&section=footer&animation=fadeIn" alt="Footer Wave" />
+</div>
+
+<!-- Custom Assets Reference (for maintenance) -->
+<!-- 
+  Assets stored in ./assets/:
+  - mascot.svg — Code Cat mascot with circuit tail
+  - divider-wave.svg — Animated wave section divider
+  - section-divider.svg — Minimal line divider with pulse
+  - header-accent.svg — Dual circuit lines with pulse rings
+  See assets/README.md for usage guide
+-->
