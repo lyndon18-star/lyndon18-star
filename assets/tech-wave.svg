@@ -1,0 +1,131 @@
+<svg width="100%" height="120" viewBox="0 0 1000 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="waveGrad1" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="waveGrad2" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#22C55E" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#22C55E" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#22C55E" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="waveGrad3" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#FBBF24" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FBBF24" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#FBBF24" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="nodeGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Wave 1: Cyan -->
+  <path d="M0 60 Q125 10 250 60 T500 60 T750 60 T1000 60"
+        stroke="url(#waveGrad1)" stroke-width="2.5" fill="none"
+        stroke-dasharray="15 8" stroke-linecap="round">
+    <animate attributeName="stroke-dashoffset" from="0" to="46" dur="3s" repeatCount="indefinite" />
+  </path>
+
+  <!-- Wave 2: Emerald (offset) -->
+  <path d="M0 75 Q125 40 250 75 T500 75 T750 75 T1000 75"
+        stroke="url(#waveGrad2)" stroke-width="1.5" fill="none"
+        stroke-dasharray="10 12" stroke-linecap="round">
+    <animate attributeName="stroke-dashoffset" from="0" to="44" dur="4s" repeatCount="indefinite" />
+  </path>
+
+  <!-- Wave 3: Amber (offset) -->
+  <path d="M0 45 Q125 75 250 45 T500 45 T750 45 T1000 45"
+        stroke="url(#waveGrad3)" stroke-width="1.5" fill="none"
+        stroke-dasharray="10 12" stroke-linecap="round">
+    <animate attributeName="stroke-dashoffset" from="0" to="44" dur="5s" repeatCount="indefinite" />
+  </path>
+
+  <!-- Animated nodes on wave 1 -->
+  <g fill="url(#nodeGlow)">
+    <circle cx="100" cy="60" r="6">
+      <animate attributeName="r" values="6;10;6" dur="2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="300" cy="60" r="6">
+      <animate attributeName="r" values="6;10;6" dur="2s" repeatCount="indefinite" begin="0.5s" />
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" begin="0.5s" />
+    </circle>
+    <circle cx="500" cy="60" r="6">
+      <animate attributeName="r" values="6;10;6" dur="2s" repeatCount="indefinite" begin="1s" />
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" begin="1s" />
+    </circle>
+    <circle cx="700" cy="60" r="6">
+      <animate attributeName="r" values="6;10;6" dur="2s" repeatCount="indefinite" begin="1.5s" />
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" begin="1.5s" />
+    </circle>
+    <circle cx="900" cy="60" r="6">
+      <animate attributeName="r" values="6;10;6" dur="2s" repeatCount="indefinite" begin="2s" />
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" begin="2s" />
+    </circle>
+  </g>
+
+  <!-- Tech labels floating along waves -->
+  <g font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#38BDF8" opacity="0.6">
+    <text x="80" y="35">
+      <animate attributeName="y" values="35;30;35" dur="3s" repeatCount="indefinite" />
+    >React</text>
+    <text x="230" y="85">
+      <animate attributeName="y" values="85;80;85" dur="3.5s" repeatCount="indefinite" begin="0.3s" />
+    >TypeScript</text>
+    <text x="380" y="30">
+      <animate attributeName="y" values="30;25;30" dur="4s" repeatCount="indefinite" begin="0.6s" />
+    >Next.js</text>
+    <text x="530" y="90">
+      <animate attributeName="y" values="90;85;90" dur="3.8s" repeatCount="indefinite" begin="0.9s" />
+    >Tailwind</text>
+    <text x="680" y="35">
+      <animate attributeName="y" values="35;30;35" dur="3.2s" repeatCount="indefinite" begin="1.2s" />
+    >Node.js</text>
+    <text x="830" y="80">
+      <animate attributeName="y" values="80;75;80" dur="4.2s" repeatCount="indefinite" begin="1.5s" />
+    >PostgreSQL</text>
+    <text x="950" y="30">
+      <animate attributeName="y" values="30;25;30" dur="3.5s" repeatCount="indefinite" begin="1.8s" />
+    >Docker</text>
+  </g>
+
+  <!-- Small circuit nodes on wave 2 -->
+  <g fill="#22C55E" opacity="0.4">
+    <circle cx="150" cy="75" r="3">
+      <animate attributeName="r" values="3;5;3" dur="2.5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="350" cy="75" r="3">
+      <animate attributeName="r" values="3;5;3" dur="2.5s" repeatCount="indefinite" begin="0.5s" />
+    </circle>
+    <circle cx="550" cy="75" r="3">
+      <animate attributeName="r" values="3;5;3" dur="2.5s" repeatCount="indefinite" begin="1s" />
+    </circle>
+    <circle cx="750" cy="75" r="3">
+      <animate attributeName="r" values="3;5;3" dur="2.5s" repeatCount="indefinite" begin="1.5s" />
+    </circle>
+    <circle cx="950" cy="75" r="3">
+      <animate attributeName="r" values="3;5;3" dur="2.5s" repeatCount="indefinite" begin="2s" />
+    </circle>
+  </g>
+
+  <!-- Small circuit nodes on wave 3 -->
+  <g fill="#FBBF24" opacity="0.4">
+    <circle cx="50" cy="45" r="2.5">
+      <animate attributeName="r" values="2.5;4;2.5" dur="2.8s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="250" cy="45" r="2.5">
+      <animate attributeName="r" values="2.5;4;2.5" dur="2.8s" repeatCount="indefinite" begin="0.4s" />
+    </circle>
+    <circle cx="450" cy="45" r="2.5">
+      <animate attributeName="r" values="2.5;4;2.5" dur="2.8s" repeatCount="indefinite" begin="0.8s" />
+    </circle>
+    <circle cx="650" cy="45" r="2.5">
+      <animate attributeName="r" values="2.5;4;2.5" dur="2.8s" repeatCount="indefinite" begin="1.2s" />
+    </circle>
+    <circle cx="850" cy="45" r="2.5">
+      <animate attributeName="r" values="2.5;4;2.5" dur="2.8s" repeatCount="indefinite" begin="1.6s" />
+    </circle>
+  </g>
+</svg>

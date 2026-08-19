@@ -1,0 +1,107 @@
+<svg width="600" height="180" viewBox="0 0 600 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="codeBgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0B1220"/>
+      <stop offset="100%" stop-color="#161B22"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.3"/>
+    </linearGradient>
+    <filter id="textGlow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Terminal background -->
+  <rect width="600" height="180" rx="12" fill="url(#codeBgGrad)" stroke="#30363D" stroke-width="1"/>
+
+  <!-- Title bar -->
+  <rect width="600" height="36" rx="12 12 0 0" fill="#1E293B" stroke="#30363D" stroke-width="1"/>
+  <circle cx="18" cy="18" r="6" fill="#FF5F57"/>
+  <circle cx="38" cy="18" r="6" fill="#FEBC2E"/>
+  <circle cx="58" cy="18" r="6" fill="#28CA42"/>
+
+  <!-- Tab -->
+  <rect x="100" y="4" width="120" height="28" rx="4" fill="#0B1220" stroke="#30363D" stroke-width="0.5"/>
+  <text x="110" y="24" font-family="monospace" font-size="11" fill="#8B949E">index.tsx</text>
+
+  <!-- Code lines with typing animation -->
+  <g font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="13" fill="#E2E8F0">
+
+    <!-- Line 1 -->
+    <text x="20" y="65" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.2s" fill="freeze" />
+    ><tspan fill="#FF7B72">import</tspan> <tspan fill="#D2A8FF">{</tspan> <tspan fill="#FFA657">useState</tspan><tspan fill="#D2A8FF">,</tspan> <tspan fill="#FFA657">useEffect</tspan> <tspan fill="#D2A8FF">}</tspan> <tspan fill="#FF7B72">from</tspan> <tspan fill="#A5D6FF">"react"</tspan><tspan fill="#D2A8FF">;</tspan></text>
+
+    <!-- Line 2 - typing animation -->
+    <text x="20" y="90" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.2s" fill="freeze" />
+    ><tspan fill="#FF7B72">import</tspan> <tspan fill="#D2A8FF">{</tspan> <tspan fill="#FFA657">motion</tspan> <tspan fill="#D2A8FF">,</tspan> <tspan fill="#FFA657">AnimatePresence</tspan> <tspan fill="#D2A8FF">}</tspan> <tspan fill="#FF7B72">from</tspan> <tspan fill="#A5D6FF">"framer-motion"</tspan><tspan fill="#D2A8FF">;</tspan></text>
+
+    <!-- Line 3 -->
+    <text x="20" y="115" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2s" fill="freeze" />
+    ><tspan fill="#D2A8FF">const</tspan> <tspan fill="#79C0FF">Hero</tspan> <tspan fill="#D2A8FF">=</tspan> <tspan fill="#D2A8FF">()</tspan> <tspan fill="#D2A8FF">=></tspan> <tspan fill="#D2A8FF">{</tspan></text>
+
+    <!-- Line 4 - typing with cursor -->
+    <text x="40" y="140" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.8s" fill="freeze" />
+    ><tspan fill="#9CDCFE">const</tspan> <tspan fill="#D4D4D4">[</tspan><tspan fill="#4EC9B0">name</tspan><tspan fill="#D4D4D4">,</tspan> <tspan fill="#D4D4D4">setName</tspan><tspan fill="#D4D4D4">]</tspan> <tspan fill="#D4D4D4">=</tspan> <tspan fill="#DCDCAA">useState</tspan><tspan fill="#D2A8FF">(</tspan><tspan fill="#CE9178">"Lyndon"</tspan><tspan fill="#D2A8FF">)</tspan><tspan fill="#D2A8FF">;</tspan></text>
+
+    <!-- Line 5 -->
+    <text x="40" y="165" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="3.5s" fill="freeze" />
+    ><tspan fill="#9CDCFE">const</tspan> <tspan fill="#D4D4D4">[</tspan><tspan fill="#4EC9B0">stack</tspan><tspan fill="#D4D4D4">]</tspan> <tspan fill="#D4D4D4">=</tspan> <tspan fill="#D4D4D4">[</tspan><tspan fill="#CE9178">"Next.js"</tspan><tspan fill="#D4D4D4">,</tspan> <tspan fill="#CE9178">"TypeScript"</tspan><tspan fill="#D4D4D4">,</tspan> <tspan fill="#CE9178">"Tailwind"</tspan><tspan fill="#D4D4D4">]</tspan><tspan fill="#D2A8FF">;</tspan></text>
+
+    <!-- Line 6 - animated -->
+    <text x="20" y="190" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="4.2s" fill="freeze" />
+    ><tspan fill="#D2A8FF">return</tspan> <tspan fill="#D2A8FF">(</tspan></text>
+
+    <!-- Line 7 -->
+    <text x="40" y="215" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="4.8s" fill="freeze" />
+    ><tspan fill="#FF7B72"><</tspan><tspan fill="#FFA657">motion.div</tspan> <tspan fill="#9CDCFE">initial</tspan><tspan fill="#D2A8FF">=</tspan><tspan fill="#D2A88FF">{</tspan><tspan fill="#D4D4D4">opacity:</tspan> <tspan fill="#B5CEA8">0</tspan><tspan fill="#D2A8FF">}</tspan> <tspan fill="#9CDCFE">animate</tspan><tspan fill="#D2A8FF">=</tspan><tspan fill="#D2A8FF">{</tspan><tspan fill="#D4D4D4">opacity:</tspan> <tspan fill="#B5CEA8">1</tspan><tspan fill="#D2A8FF">}</tspan> <tspan fill="#9CDCFE">transition</tspan><tspan fill="#D2A8FF">=</tspan><tspan fill="#D2A8FF">{</tspan><tspan fill="#D4D4D4">duration:</tspan> <tspan fill="#B5CEA8">0.8</tspan><tspan fill="#D2A8FF">}</tspan><tspan fill="#FF7B72">></tspan></text>
+
+    <!-- Line 8 -->
+    <text x="60" y="240" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="5.4s" fill="freeze" />
+    ><tspan fill="#D4D4D4">Building </tspan><tspan fill="#38BDF8" font-weight="bold">Useful Software</tspan><tspan fill="#D4D4D4">...</tspan></text>
+
+    <!-- Line 9 -->
+    <text x="40" y="265" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="6s" fill="freeze" />
+    ><tspan fill="#FF7B72"></</tspan><tspan fill="#FFA657">motion.div</tspan><tspan fill="#FF7B72">></tspan></text>
+
+    <!-- Line 10 -->
+    <text x="20" y="290" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="6.5s" fill="freeze" />
+    ><tspan fill="#D2A8FF">}</tspan><tspan fill="#D2A8FF">;</tspan></text>
+
+  </g>
+
+  <!-- Blinking cursor on last line -->
+  <rect x="35" y="278" width="8" height="16" fill="#38BDF8" opacity="0">
+    <animate attributeName="opacity" values="0;1;0" dur="1s" begin="7s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- Floating particles around code -->
+  <g fill="#38BDF8" opacity="0.3">
+    <circle cx="550" cy="50" r="2">
+      <animate attributeName="cy" values="50;40;50" dur="3s" repeatCount="indefinite" />
+      <animate attributeName="cx" values="550;555;550" dur="4s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="570" cy="130" r="1.5">
+      <animate attributeName="cy" values="130;120;130" dur="3.5s" repeatCount="indefinite" begin="0.5s" />
+      <animate attributeName="cx" values="570;565;570" dur="4.5s" repeatCount="indefinite" begin="0.5s" />
+    </circle>
+    <circle cx="520" cy="80" r="2.5">
+      <animate attributeName="cy" values="80;70;80" dur="2.8s" repeatCount="indefinite" begin="1s" />
+    </circle>
+  </g>
+</svg>
