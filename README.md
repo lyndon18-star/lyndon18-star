@@ -343,7 +343,7 @@
 
 ## 📈 Activity Overview
 
-<div align="center>
+<div align="center">
   <!-- WakaTime (if available) -->
   <img src="https://github-readme-stats.vercel.app/api/wakatime?username=lyndon18-star&theme=transparent&hide_border=true&bg_color=0d1117,161b22,0d1117&title_color=38BDF8&text_color=E2E8F0&border_color=30363D&custom_title=Coding+Activity&layout=compact" alt="WakaTime" />
   <br /><br />
