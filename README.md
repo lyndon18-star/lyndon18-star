@@ -1,59 +1,27 @@
 <div align="center">
   <!-- Header Accent - Dual Circuit Lines with Pulse Rings -->
-  <svg width="100%" height="40" viewBox="0 0 1000 40" fill="none" xmlns="http://www.w3.org/2000/svg" style="max-width:100%; height:auto;">
-    <defs>
-      <linearGradient id="accentGrad" x1="0%" y1="50%" x2="100%" y2="50%">
-        <stop offset="0%" stop-color="#38BDF8" stop-opacity="0"/>
-        <stop offset="50%" stop-color="#38BDF8" stop-opacity="1"/>
-        <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
-      </linearGradient>
-      <radialGradient id="pulseGrad" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stop-color="#38BDF8" stop-opacity="1"/>
-        <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
-      </radialGradient>
-    </defs>
-    <!-- Top circuit line -->
-    <path d="M0 12 Q200 8 500 12 T1000 12" stroke="url(#accentGrad)" stroke-width="1.5" fill="none" stroke-dasharray="10 8">
-      <animate attributeName="stroke-dashoffset" from="0" to="36" dur="3s" repeatCount="indefinite"/>
-    </path>
-    <!-- Bottom circuit line -->
-    <path d="M0 28 Q200 32 500 28 T1000 28" stroke="url(#accentGrad)" stroke-width="1.5" fill="none" stroke-dasharray="10 8">
-      <animate attributeName="stroke-dashoffset" from="0" to="36" dur="3s" repeatCount="indefinite" begin="0.5s"/>
-    </path>
-    <!-- Pulsing center ring -->
-    <circle cx="500" cy="20" r="8" fill="url(#pulseGrad)">
-      <animate attributeName="r" values="8;25;8" dur="2.5s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.6;0;0.6" dur="2.5s" repeatCount="indefinite"/>
-    </circle>
-    <!-- Small connection nodes -->
-    <g fill="#38BDF8" opacity="0.5">
-      <circle cx="200" cy="20" r="2.5"><animate attributeName="cy" values="20;12;20" dur="2s" repeatCount="indefinite"/></circle>
-      <circle cx="400" cy="20" r="2.5"><animate attributeName="cy" values="20;28;20" dur="2s" repeatCount="indefinite" begin="0.3s"/></circle>
-      <circle cx="600" cy="20" r="2.5"><animate attributeName="cy" values="20;12;20" dur="2s" repeatCount="indefinite" begin="0.6s"/></circle>
-      <circle cx="800" cy="20" r="2.5"><animate attributeName="cy" values="20;28;20" dur="2s" repeatCount="indefinite" begin="0.9s"/></circle>
-    </g>
-  </svg>
-  <br />
+  <img src="assets/header-accent.svg" width="100%" style="max-width:100%; height:auto;" alt="Header Accent" />
+  <br /><br />
 
   <!-- Profile Header -->
   <a href="https://github.com/lyndon18-star">
-    <img src="https://github.com/lyndon18-star.png" width="130" height="130" style="border-radius:50%; border:4px solid #38bdf8; box-shadow:0 0 30px rgba(56,189,248,0.3); animation: pulse-ring 3s ease-in-out infinite;" alt="Lyndon Bautista" />
+    <img src="https://github.com/lyndon18-star.png" width="130" height="130" style="border-radius:50%; border:4px solid #5b8fb9; box-shadow:0 0 30px rgba(91,143,185,0.3);" alt="Lyndon Bautista" />
   </a>
   <br /><br />
 
   <!-- Typing Animation Header -->
-  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=40&pause=1000&color=38BDF8&center=true&width=700&height=70&lines=Lyndon+Bautista;IT+Student+%7C+Full-Stack+Developer;Building+Useful+Software" alt="Typing Header" />
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=40&pause=1000&color=5B8FB9&center=true&width=700&height=70&lines=Lyndon+Bautista;IT+Student+%7C+Full-Stack+Developer;Building+Useful+Software" alt="Typing Header" />
   <br /><br />
 
   <!-- Identity Badges -->
-  <img src="https://img.shields.io/badge/Manila-%F0%9F%87%B5%F0%9F%87%AD-0B1220?style=for-the-badge&logo=google-maps&logoColor=38BDF8" />
-  <img src="https://img.shields.io/badge/2nd+Year+IT+Student-38BDF8?style=for-the-badge&logo=student&logoColor=0B1220" />
+  <img src="https://img.shields.io/badge/Manila-%F0%9F%87%B5%F0%9F%87%AD-0E0E12?style=for-the-badge&logo=google-maps&logoColor=5B8FB9" />
+  <img src="https://img.shields.io/badge/2nd+Year+IT+Student-5B8FB9?style=for-the-badge&logo=student&logoColor=0E0E12" />
   <img src="https://img.shields.io/badge/Open+to+Collaboration-22C55E?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Available+for+Internship-FBBF24?style=for-the-badge&logo=briefcase&logoColor=0B1220" />
+  <img src="https://img.shields.io/badge/Available+for+Internship-FBBF24?style=for-the-badge&logo=briefcase&logoColor=0E0E12" />
   <br /><br />
 
   <!-- Social Proof -->
-  <img src="https://img.shields.io/github/followers/lyndon18-star?label=Followers&style=flat-square&color=38BDF8&logo=github" />
+  <img src="https://img.shields.io/github/followers/lyndon18-star?label=Followers&style=flat-square&color=5B8FB9&logo=github" />
   <img src="https://img.shields.io/github/stars/lyndon18-star?label=Stars&style=flat-square&color=FBBF24&logo=star" />
   <img src="https://img.shields.io/github/commit-activity/y/lyndon18-star?label=Commits%2FYear&style=flat-square&color=A78BFA&logo=github" />
   <img src="https://img.shields.io/github/repo-size/lyndon18-star/lyndon18-star?label=Profile%20Size&style=flat-square&color=F472B6&logo=database" />
@@ -74,7 +42,7 @@
   <table>
     <tr>
       <td align="center" width="33%">
-        <img src="https://img.shields.io/badge/%F0%9F%8E%A8%EF%B8%8F-Websites-38BDF8?style=for-the-badge&logo=web&logoColor=0B1220" />
+        <img src="https://img.shields.io/badge/%F0%9F%8E%A8%EF%B8%8F-Websites-5B8FB9?style=for-the-badge&logo=web&logoColor=0E0E12" />
         <br /><sub>Modern, responsive, accessible</sub>
       </td>
       <td align="center" width="33%">
@@ -82,7 +50,7 @@
         <br /><sub>Reliable, scalable, maintainable</sub>
       </td>
       <td align="center" width="33%">
-        <img src="https://img.shields.io/badge/%E2%9A%A1%EF%B8%8F-Automation-FBBF24?style=for-the-badge&logo=zapier&logoColor=0B1220" />
+        <img src="https://img.shields.io/badge/%E2%9A%A1%EF%B8%8F-Automation-FBBF24?style=for-the-badge&logo=zapier&logoColor=0E0E12" />
         <br /><sub>Save time, reduce errors</sub>
       </td>
     </tr>
@@ -91,7 +59,7 @@
 
 <p align="center">
   <strong>Clean interfaces. Reliable backends. Tools people actually use.</strong><br />
-  I'm a 2nd-year IT student from Manila who enjoys turning messy problems into working software.
+  I'm a 2nd-year IT student from Manila who enjoys turning messy problems into working software.<br />
   Currently shipping projects across web, desktop, and automation — with live demos you can try.
 </p>
 
@@ -102,7 +70,7 @@
   <table>
     <tr>
       <td align="center" style="padding: 0 20px;">
-        <img src="https://img.shields.io/badge/%F0%9F%92%BB-Currently+Building-38BDF8?style=for-the-badge&logo=rocket&logoColor=0B1220" />
+        <img src="https://img.shields.io/badge/%F0%9F%92%BB-Currently+Building-5B8FB9?style=for-the-badge&logo=rocket&logoColor=0E0E12" />
         <br /><sub><strong>Portfolio Website</strong> — Next.js + Tailwind + MDX</sub>
       </td>
       <td align="center" style="padding: 0 20px;">
@@ -126,7 +94,12 @@
 
 <br />
 
----
+<!-- Section Divider with Pulse -->
+<div align="center">
+  <img src="assets/section-divider.svg" width="100%" style="max-width:100%; height:auto;" alt="Section Divider" />
+</div>
+
+<br />
 
 ## 💡 How I Build
 
@@ -162,13 +135,13 @@
 **My personal portfolio built with Next.js 14, Tailwind CSS, and MDX for blog/posts.**
 <div align="center">
   <a href="https://github.com/lyndon18-star/WEBSITE-LYNDON" target="_blank">
-    <img src="https://img.shields.io/badge/Source-0B1220?style=for-the-badge&logo=github&logoColor=38BDF8" />
+    <img src="https://img.shields.io/badge/Source-0E0E12?style=for-the-badge&logo=github&logoColor=5B8FB9" />
   </a>
   <a href="https://lyndon18-star.github.io/WEBSITE-LYNDON/" target="_blank">
-    <img src="https://img.shields.io/badge/Live+Demo-38BDF8?style=for-the-badge&logo=githubpages&logoColor=white" />
+    <img src="https://img.shields.io/badge/Live+Demo-5B8FB9?style=for-the-badge&logo=githubpages&logoColor=white" />
   </a>
   <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=next.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tailwind-38BDF8?style=flat-square&logo=tailwindcss&logoColor=0B1220" />
+  <img src="https://img.shields.io/badge/Tailwind-5B8FB9?style=flat-square&logo=tailwindcss&logoColor=0E0E12" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
   <img src="https://img.shields.io/badge/MDX-000?style=flat-square&logo=mdx&logoColor=white" />
 </div>
@@ -179,9 +152,9 @@
 **A heartfelt project — details in the repo.**
 <div align="center">
   <a href="https://github.com/lyndon18-star/parakay-lalove" target="_blank">
-    <img src="https://img.shields.io/badge/Source-0B1220?style=for-the-badge&logo=github&logoColor=38BDF8" />
+    <img src="https://img.shields.io/badge/Source-0E0E12?style=for-the-badge&logo=github&logoColor=5B8FB9" />
   </a>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=0B1220" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=0E0E12" />
 </div>
 
 <br />
@@ -190,9 +163,9 @@
 **Interactive web application — explore the repo for details.**
 <div align="center">
   <a href="https://github.com/lyndon18-star/IIYAK" target="_blank">
-    <img src="https://img.shields.io/badge/Source-0B1220?style=for-the-badge&logo=github&logoColor=38BDF8" />
+    <img src="https://img.shields.io/badge/Source-0E0E12?style=for-the-badge&logo=github&logoColor=5B8FB9" />
   </a>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=0B1220" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=0E0E12" />
 </div>
 
 <br />
@@ -201,9 +174,9 @@
 **Museum-themed web experience — check the source.**
 <div align="center">
   <a href="https://github.com/lyndon18-star/MUSEUM" target="_blank">
-    <img src="https://img.shields.io/badge/Source-0B1220?style=for-the-badge&logo=github&logoColor=38BDF8" />
+    <img src="https://img.shields.io/badge/Source-0E0E12?style=for-the-badge&logo=github&logoColor=5B8FB9" />
   </a>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=0B1220" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=0E0E12" />
 </div>
 
 <br />
@@ -212,7 +185,7 @@
 **System 20 — A Java desktop application (1 star).**
 <div align="center">
   <a href="https://github.com/lyndon18-star/SYSTEM-20" target="_blank">
-    <img src="https://img.shields.io/badge/Source-0B1220?style=for-the-badge&logo=github&logoColor=38BDF8" />
+    <img src="https://img.shields.io/badge/Source-0E0E12?style=for-the-badge&logo=github&logoColor=5B8FB9" />
   </a>
   <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
   <img src="https://img.shields.io/badge/JavaFX-000?style=flat-square&logo=java&logoColor=white" />
@@ -224,7 +197,7 @@
 **Personal web project — HTML-based.**
 <div align="center">
   <a href="https://github.com/lyndon18-star/labuweb" target="_blank">
-    <img src="https://img.shields.io/badge/Source-0B1220?style=for-the-badge&logo=github&logoColor=38BDF8" />
+    <img src="https://img.shields.io/badge/Source-0E0E12?style=for-the-badge&logo=github&logoColor=5B8FB9" />
   </a>
   <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white" />
   <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white" />
@@ -236,7 +209,7 @@
 **Project with the tagline "BASTA" — explore to learn more.**
 <div align="center">
   <a href="https://github.com/lyndon18-star/GATHERGATE" target="_blank">
-    <img src="https://img.shields.io/badge/Source-0B1220?style=for-the-badge&logo=github&logoColor=38BDF8" />
+    <img src="https://img.shields.io/badge/Source-0E0E12?style=for-the-badge&logo=github&logoColor=5B8FB9" />
   </a>
 </div>
 
@@ -246,7 +219,7 @@
 **Backend for portfolio — API layer.**
 <div align="center">
   <a href="https://github.com/lyndon18-star/portfolio-backend" target="_blank">
-    <img src="https://img.shields.io/badge/Source-0B1220?style=for-the-badge&logo=github&logoColor=38BDF8" />
+    <img src="https://img.shields.io/badge/Source-0E0E12?style=for-the-badge&logo=github&logoColor=5B8FB9" />
   </a>
 </div>
 
@@ -254,7 +227,7 @@
 
 <div align="center">
   <a href="https://github.com/lyndon18-star?tab=repositories" target="_blank">
-    <img src="https://img.shields.io/badge/Explore+All+11+Repositories-%E2%86%92-38BDF8?style=for-the-badge&logo=github&logoColor=0B1220" />
+    <img src="https://img.shields.io/badge/Explore+All+11+Repositories-%E2%86%92-5B8FB9?style=for-the-badge&logo=github&logoColor=0E0E12" />
   </a>
 </div>
 
@@ -299,15 +272,15 @@
 
 <div align="center">
   <!-- Stats Card -->
-  <img src="https://github-readme-stats.vercel.app/api?username=lyndon18-star&theme=transparent&show_icons=true&locale=en&hide_border=true&include_all_commits=true&count_private=false&bg_color=0d1117,161b22,0d1117&title_color=38BDF8&text_color=E2E8F0&icon_color=38BDF8&border_color=30363D&custom_title=GitHub+Stats" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=lyndon18-star&theme=transparent&show_icons=true&locale=en&hide_border=true&include_all_commits=true&count_private=false&bg_color=0E0E12,18181F,0E0E12&title_color=5B8FB9&text_color=E8E6E1&icon_color=5B8FB9&border_color=2A2A35&custom_title=GitHub+Stats" alt="GitHub Stats" />
   <br /><br />
 
   <!-- Streak Stats -->
-  <img src="https://streak-stats.demolab.com/?user=lyndon18-star&theme=transparent&hide_border=true&background=0d1117,161b22,0d1117&stroke=38BDF8&ring=38BDF8&fire=22C55E&currStreakLabel=38BDF8&sideNums=E2E8F0&sideLabels=94A3B8&dates=64748B&border=30363D" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com/?user=lyndon18-star&theme=transparent&hide_border=true&background=0E0E12,18181F,0E0E12&stroke=5B8FB9&ring=5B8FB9&fire=22C55E&currStreakLabel=5B8FB9&sideNums=E8E6E1&sideLabels=9E9A91&dates=64748B&border=2A2A35" alt="GitHub Streak" />
   <br /><br />
 
   <!-- Top Languages -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lyndon18-star&theme=transparent&hide_border=true&layout=compact&bg_color=0d1117,161b22,0d1117&title_color=38BDF8&text_color=E2E8F0&border_color=30363D&custom_title=Top+Languages&langs_count=10" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lyndon18-star&theme=transparent&hide_border=true&layout=compact&bg_color=0E0E12,18181F,0E0E12&title_color=5B8FB9&text_color=E8E6E1&border_color=2A2A35&custom_title=Top+Languages&langs_count=10" alt="Top Languages" />
 </div>
 
 <br />
@@ -328,7 +301,7 @@
 
 <!-- Contribution Snake Animation -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/lyndon18-star/lyndon18-star/dist/github-contribution-grid-snake.svg" alt="Contribution Snake" style="max-width:100%; border-radius:12px; border:1px solid #30363D;" />
+  <img src="https://raw.githubusercontent.com/lyndon18-star/lyndon18-star/dist/github-contribution-grid-snake.svg" alt="Contribution Snake" style="max-width:100%; border-radius:12px; border:1px solid #2A2A35;" />
   <br /><br />
 </div>
 
@@ -345,15 +318,15 @@
 
 <div align="center">
   <!-- WakaTime (if available) -->
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=lyndon18-star&theme=transparent&hide_border=true&bg_color=0d1117,161b22,0d1117&title_color=38BDF8&text_color=E2E8F0&border_color=30363D&custom_title=Coding+Activity&layout=compact" alt="WakaTime" />
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=lyndon18-star&theme=transparent&hide_border=true&bg_color=0E0E12,18181F,0E0E12&title_color=5B8FB9&text_color=E8E6E1&border_color=2A2A35&custom_title=Coding+Activity&layout=compact" alt="WakaTime" />
   <br /><br />
 
   <!-- Profile Views -->
-  <img src="https://komarev.com/ghpvc/?username=lyndon18-star&label=Profile+Views&color=38BDF8&style=flat-square" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=lyndon18-star&label=Profile+Views&color=5B8FB9&style=flat-square" alt="Profile views" />
   <br /><br />
 
   <!-- Visitor Map -->
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=lyndon18-star.lyndon18-star&left_color=0B1220&right_color=38BDF8" alt="Visitor Map" />
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=lyndon18-star.lyndon18-star&left_color=0E0E12&right_color=5B8FB9" alt="Visitor Map" />
 </div>
 
 <br />
@@ -405,7 +378,7 @@
 
 <!-- Primary CTAs -->
 <a href="https://github.com/lyndon18-star" target="_blank">
-  <img src="https://img.shields.io/badge/Follow+on+GitHub-%E2%86%92-38BDF8?style=for-the-badge&logo=github&logoColor=0B1220" />
+  <img src="https://img.shields.io/badge/Follow+on+GitHub-%E2%86%92-5B8FB9?style=for-the-badge&logo=github&logoColor=0E0E12" />
 </a>
 <a href="mailto:lyndobtst@gmail.com">
   <img src="https://img.shields.io/badge/Say+Hi+%F0%9F%91%8B-22C55E?style=for-the-badge&logo=gmail&logoColor=white" />
@@ -419,12 +392,12 @@
 
 <div align="center">
   <sub>
-    Built with <span style="color:#38BDF8">💙</span> by <strong>lyndon18-star</strong> ·
+    Built with <span style="color:#5B8FB9">💙</span> by <strong>lyndon18-star</strong> ·
     Inspired by <a href="https://github.com/mightbechr1s" target="_blank">@mightbechr1s</a> ·
     <a href="https://github.com/lyndon18-star/lyndon18-star" target="_blank">View Source</a>
   </sub>
   <br /><br />
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0B1220,1E293B,38BDF8&height=100&section=footer&animation=fadeIn" alt="Footer Wave" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0E0E12,1E293B,5B8FB9&height=100&section=footer&animation=fadeIn" alt="Footer Wave" />
 </div>
 
 <!-- Custom Assets Reference (for maintenance) -->
