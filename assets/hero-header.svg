@@ -1,0 +1,277 @@
+<svg width="100%" height="280" viewBox="0 0 1200 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Deep space background gradient -->
+    <radialGradient id="heroBgGrad" cx="50%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#1A0F2E"/>
+      <stop offset="50%" stop-color="#0F0A1A"/>
+      <stop offset="100%" stop-color="#080510"/>
+    </radialGradient>
+
+    <!-- Primary violet gradient -->
+    <linearGradient id="violetGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="50%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#C026D3"/>
+    </linearGradient>
+
+    <!-- Cyan-tech gradient -->
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+
+    <!-- Magenta gradient -->
+    <linearGradient id="magentaGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C026D3"/>
+      <stop offset="100%" stop-color="#F472B6"/>
+    </linearGradient>
+
+    <!-- Text gradient -->
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="50%" stop-color="#D8B4FE"/>
+      <stop offset="100%" stop-color="#F8FAFC"/>
+    </linearGradient>
+
+    <!-- Glow filters -->
+    <filter id="glowStrong" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="glowSoft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="textGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Particle gradients -->
+    <radialGradient id="particleViolet" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="particleCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="particleMagenta" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F472B6" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#F472B6" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Circuit line gradient -->
+    <linearGradient id="circuitGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#7C3AED" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#A855F7" stop-opacity="1"/>
+      <stop offset="80%" stop-color="#7C3AED" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Ring gradient -->
+    <radialGradient id="ringGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="280" fill="url(#heroBgGrad)"/>
+
+  <!-- Subtle grid pattern -->
+  <g stroke="#3D2A5C" stroke-width="0.5" opacity="0.3">
+    <g>
+      <line x1="0" y1="0" x2="1200" y2="0"/>
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,40" dur="20s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <line x1="0" y1="0" x2="0" y2="280"/>
+      <animateTransform attributeName="transform" type="translate" values="0,0;40,0" dur="25s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <!-- Large ambient glow orbs -->
+  <circle cx="200" cy="100" r="200" fill="url(#particleViolet)" opacity="0.08" filter="url(#glowStrong)">
+    <animate attributeName="cx" values="200;250;200" dur="15s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="100;80;100" dur="18s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.08;0.15;0.08" dur="8s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="1000" cy="180" r="180" fill="url(#particleCyan)" opacity="0.06" filter="url(#glowStrong)">
+    <animate attributeName="cx" values="1000;950;1000" dur="12s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="180;200;180" dur="16s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.06;0.12;0.06" dur="10s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="600" cy="-50" r="250" fill="url(#particleMagenta)" opacity="0.05" filter="url(#glowStrong)">
+    <animate attributeName="cy" values="-50;0;-50" dur="20s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.05;0.1;0.05" dur="12s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Animated circuit lines across top -->
+  <g stroke="url(#circuitGrad)" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-dasharray="12 8">
+    <path d="M0 40 Q200 10 600 40 T1200 40">
+      <animate attributeName="stroke-dashoffset" from="0" to="40" dur="4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M0 240 Q200 270 600 240 T1200 240">
+      <animate attributeName="stroke-dashoffset" from="0" to="40" dur="4s" repeatCount="indefinite" begin="1s"/>
+    </path>
+  </g>
+
+  <!-- Floating geometric shapes -->
+  <g opacity="0.4">
+    <!-- Rotating squares -->
+    <g transform="translate(150, 80)">
+      <rect x="-15" y="-15" width="30" height="30" fill="none" stroke="url(#violetGrad)" stroke-width="1.5" rx="4">
+        <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="20s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.4;0.7;0.4" dur="4s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="-8" y="-8" width="16" height="16" fill="none" stroke="url(#cyanGrad)" stroke-width="1" rx="2">
+        <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="15s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <g transform="translate(1050, 60)">
+      <rect x="-12" y="-12" width="24" height="24" fill="none" stroke="url(#magentaGrad)" stroke-width="1.5" rx="4">
+        <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="-360 0 0" dur="18s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.3;0.6;0.3" dur="3.5s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- Floating triangles -->
+    <g transform="translate(300, 200)">
+      <polygon points="0,-15 13,7 -13,7" fill="none" stroke="url(#violetGrad)" stroke-width="1.5">
+        <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="12s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.3;0.6;0.3" dur="3s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="200;180;200" dur="6s" repeatCount="indefinite"/>
+      </polygon>
+    </g>
+
+    <g transform="translate(900, 120)">
+      <polygon points="0,-12 10,6 -10,6" fill="none" stroke="url(#cyanGrad)" stroke-width="1">
+        <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="10s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.2;0.5;0.2" dur="4s" repeatCount="indefinite"/>
+      </polygon>
+    </g>
+  </g>
+
+  <!-- Floating code brackets and symbols -->
+  <g font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="28" font-weight="700" fill="url(#violetGrad)" opacity="0.15">
+    <text x="80" y="260">
+      <animate attributeName="opacity" values="0.15;0.3;0.15" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="260;250;260" dur="5s" repeatCount="indefinite"/>
+    >{</text>
+    <text x="220" y="260">
+      <animate attributeName="opacity" values="0.15;0.3;0.15" dur="4s" repeatCount="indefinite" begin="1s"/>
+      <animate attributeName="y" values="260;250;260" dur="5s" repeatCount="indefinite" begin="1s"/>
+    >}</text>
+    <text x="400" y="260">
+      <animate attributeName="opacity" values="0.1;0.25;0.1" dur="3.5s" repeatCount="indefinite" begin="0.5s"/>
+      <animate attributeName="y" values="260;252;260" dur="4.5s" repeatCount="indefinite" begin="0.5s"/>
+    >[</text>
+    <text x="540" y="260">
+      <animate attributeName="opacity" values="0.1;0.25;0.1" dur="3.5s" repeatCount="indefinite" begin="1.5s"/>
+      <animate attributeName="y" values="260;252;260" dur="4.5s" repeatCount="indefinite" begin="1.5s"/>
+    >]</text>
+    <text x="720" y="260">
+      <animate attributeName="opacity" values="0.15;0.3;0.15" dur="4s" repeatCount="indefinite" begin="0.8s"/>
+      <animate attributeName="y" values="260;250;260" dur="5s" repeatCount="indefinite" begin="0.8s"/>
+    >(</text>
+    <text x="860" y="260">
+      <animate attributeName="opacity" values="0.15;0.3;0.15" dur="4s" repeatCount="indefinite" begin="1.8s"/>
+      <animate attributeName="y" values="260;250;260" dur="5s" repeatCount="indefinite" begin="1.8s"/>
+    >)</text>
+    <text x="1000" y="260">
+      <animate attributeName="opacity" values="0.1;0.25;0.1" dur="3.5s" repeatCount="indefinite" begin="2s"/>
+      <animate attributeName="y" values="260;252;260" dur="4.5s" repeatCount="indefinite" begin="2s"/>
+    >=</text>
+    <text x="1120" y="260">
+      <animate attributeName="opacity" values="0.1;0.25;0.1" dur="3.5s" repeatCount="indefinite" begin="2.5s"/>
+      <animate attributeName="y" values="260;252;260" dur="4.5s" repeatCount="indefinite" begin="2.5s"/>
+    >></text>
+  </g>
+
+  <!-- Central identity area (replaces profile picture) -->
+  <g transform="translate(600, 140)">
+    <!-- Outer pulsing rings -->
+    <circle cx="0" cy="0" r="70" fill="none" stroke="url(#violetGrad)" stroke-width="1.5" opacity="0.3">
+      <animate attributeName="r" values="70;90;70" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;0.1;0.3" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="0" r="55" fill="none" stroke="url(#cyanGrad)" stroke-width="1" opacity="0.2">
+      <animate attributeName="r" values="55;75;55" dur="5s" repeatCount="indefinite" begin="1s"/>
+      <animate attributeName="opacity" values="0.2;0.05;0.2" dur="5s" repeatCount="indefinite" begin="1s"/>
+    </circle>
+    <circle cx="0" cy="0" r="40" fill="none" stroke="url(#magentaGrad)" stroke-width="1" opacity="0.15">
+      <animate attributeName="r" values="40;60;40" dur="6s" repeatCount="indefinite" begin="2s"/>
+      <animate attributeName="opacity" values="0.15;0.05;0.15" dur="6s" repeatCount="indefinite" begin="2s"/>
+    </circle>
+
+    <!-- Central hexagon badge -->
+    <g>
+      <polygon points="0,-50 43.3,-25 43.3,25 0,50 -43.3,25 -43.3,-25"
+               fill="url(#violetGrad)" stroke="url(#cyanGrad)" stroke-width="2" opacity="0.9" filter="url(#glowSoft)">
+        <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="30s" repeatCount="indefinite"/>
+      </polygon>
+
+      <!-- Inner hexagon -->
+      <polygon points="0,-35 30.3,-17.5 30.3,17.5 0,35 -30.3,17.5 -30.3,-17.5"
+               fill="url(#heroBgGrad)" stroke="url(#violetGrad)" stroke-width="1.5" opacity="0.8">
+        <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="25s" repeatCount="indefinite"/>
+      </polygon>
+
+      <!-- Core symbol: code brackets -->
+      <g transform="translate(0, 5)">
+        <text x="0" y="12" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="24" font-weight="800" fill="url(#textGrad)" filter="url(#textGlow)">
+          <animate attributeName="opacity" values="1;0.7;1" dur="2s" repeatCount="indefinite"/>
+        ></></text>
+      </g>
+    </g>
+
+    <!-- Orbiting particles around center -->
+    <g>
+      <circle cx="0" cy="0" r="65" fill="none" stroke="none">
+        <!-- Orbit 1 -->
+        <circle cx="65" cy="0" r="5" fill="url(#violetGrad)" filter="url(#glowSoft)">
+          <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="8s" repeatCount="indefinite"/>
+          <animate attributeName="r" values="5;8;5" dur="2s" repeatCount="indefinite"/>
+        </circle>
+        <!-- Orbit 2 -->
+        <circle cx="-65" cy="0" r="4" fill="url(#cyanGrad)" filter="url(#glowSoft)">
+          <animateTransform attributeName="transform" type="rotate" from="180 0 0" to="540 0 0" dur="10s" repeatCount="indefinite"/>
+          <animate attributeName="r" values="4;7;4" dur="2.5s" repeatCount="indefinite"/>
+        </circle>
+        <!-- Orbit 3 -->
+        <circle cx="0" cy="-65" r="4" fill="url(#magentaGrad)" filter="url(#glowSoft)">
+          <animateTransform attributeName="transform" type="rotate" from="90 0 0" to="450 0 0" dur="12s" repeatCount="indefinite" begin="1s"/>
+          <animate attributeName="r" values="4;6;4" dur="3s" repeatCount="indefinite"/>
+        </circle>
+        <!-- Orbit 4 -->
+        <circle cx="0" cy="65" r="3" fill="url(#violetGrad)" filter="url(#glowSoft)" opacity="0.7">
+          <animateTransform attributeName="transform" type="rotate" from="270 0 0" to="630 0 0" dur="9s" repeatCount="indefinite" begin="0.5s"/>
+          <animate attributeName="r" values="3;5;3" dur="2.2s" repeatCount="indefinite"/>
+        </circle>
+      </circle>
+    </g>
+  </g>
+
+  <!-- Bottom accent wave -->
+  <path d="M0 280 Q200 230 400 260 T800 240 T1200 280" fill="url(#violetGrad)" opacity="0.15">
+    <animate attributeName="opacity" values="0.15;0.25;0.15" dur="6s" repeatCount="indefinite"/>
+  </path>
+</svg>

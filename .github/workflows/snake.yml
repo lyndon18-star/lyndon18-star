@@ -23,8 +23,8 @@ jobs:
         with:
           github_user_name: lyndon18-star
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            output/github-contribution-grid-snake.svg
+            output/github-contribution-grid-snake-dark.svg?palette=github-dark
           max_age: 365
 
       - name: Commit and push

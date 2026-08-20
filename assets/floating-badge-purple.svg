@@ -1,0 +1,154 @@
+<svg width="280" height="100" viewBox="0 0 280 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="badgeGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#A855F7"/>
+    </linearGradient>
+
+    <linearGradient id="badgeGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+
+    <linearGradient id="badgeGrad3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C026D3"/>
+      <stop offset="100%" stop-color="#F472B6"/>
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#24153B"/>
+      <stop offset="100%" stop-color="#1A0F2E"/>
+    </linearGradient>
+
+    <filter id="badgeGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <radialGradient id="iconGlow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="iconGlow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="iconGlow3" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F472B6" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#F472B6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Badge 1: Open Source Contributor -->
+  <g transform="translate(10, 10)">
+    <rect width="260" height="80" rx="16" fill="url(#cardGrad)" stroke="url(#badgeGrad1)" stroke-width="2" filter="url(#badgeGlow)">
+      <animate attributeName="stroke-width" values="2;3;2" dur="3s" repeatCount="indefinite"/>
+    </rect>
+
+    <circle cx="50" cy="50" r="28" fill="url(#iconGlow1)">
+      <animate attributeName="r" values="28;34;28" dur="3s" repeatCount="indefinite"/>
+    </circle>
+
+    <svg x="32" y="32" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="url(#badgeGrad1)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="10"/>
+      <path d="M12 6v6l4 2"/>
+    </svg>
+
+    <text x="100" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#F8FAFC">Open Source</text>
+    <text x="100" y="62" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="500" fill="#D8B4FE">Contributor</text>
+
+    <!-- Pulse indicator -->
+    <circle cx="235" cy="50" r="7" fill="url(#badgeGrad1)">
+      <animate attributeName="r" values="7;11;7" dur="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Floating particles around badge -->
+    <g fill="url(#badgeGrad1)" opacity="0.5">
+      <circle cx="250" cy="20" r="2.5">
+        <animate attributeName="cy" values="20;15;20" dur="2.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.5;0.9;0.5" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="260" cy="75" r="2">
+        <animate attributeName="cy" values="75;70;75" dur="3s" repeatCount="indefinite" begin="0.5s"/>
+        <animate attributeName="opacity" values="0.4;0.8;0.4" dur="2.5s" repeatCount="indefinite" begin="0.5s"/>
+      </circle>
+    </g>
+  </g>
+
+  <!-- Badge 2: Available for Work (hidden by default, can be shown) -->
+  <g transform="translate(10, 10)" opacity="0" id="badge2">
+    <rect width="260" height="80" rx="16" fill="url(#cardGrad)" stroke="url(#badgeGrad2)" stroke-width="2" filter="url(#badgeGlow)">
+      <animate attributeName="stroke-width" values="2;3;2" dur="3s" repeatCount="indefinite" begin="0.5s"/>
+    </rect>
+
+    <circle cx="50" cy="50" r="28" fill="url(#iconGlow2)">
+      <animate attributeName="r" values="28;34;28" dur="3s" repeatCount="indefinite" begin="0.5s"/>
+    </circle>
+
+    <svg x="32" y="32" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="url(#badgeGrad2)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+      <polyline points="22 4 12 14.01 9 11.01"/>
+    </svg>
+
+    <text x="100" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#F8FAFC">Available For</text>
+    <text x="100" y="62" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="500" fill="#A5F3FC">Internship & Freelance</text>
+
+    <circle cx="235" cy="50" r="7" fill="url(#badgeGrad2)">
+      <animate attributeName="r" values="7;11;7" dur="1.8s" repeatCount="indefinite" begin="0.5s"/>
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="1.8s" repeatCount="indefinite" begin="0.5s"/>
+    </circle>
+
+    <g fill="url(#badgeGrad2)" opacity="0.5">
+      <circle cx="250" cy="20" r="2.5">
+        <animate attributeName="cy" values="20;15;20" dur="2.5s" repeatCount="indefinite" begin="0.5s"/>
+        <animate attributeName="opacity" values="0.5;0.9;0.5" dur="2s" repeatCount="indefinite" begin="0.5s"/>
+      </circle>
+      <circle cx="260" cy="75" r="2">
+        <animate attributeName="cy" values="75;70;75" dur="3s" repeatCount="indefinite" begin="1s"/>
+        <animate attributeName="opacity" values="0.4;0.8;0.4" dur="2.5s" repeatCount="indefinite" begin="1s"/>
+      </circle>
+    </g>
+  </g>
+
+  <!-- Badge 3: Building in Public -->
+  <g transform="translate(10, 10)" opacity="0" id="badge3">
+    <rect width="260" height="80" rx="16" fill="url(#cardGrad)" stroke="url(#badgeGrad3)" stroke-width="2" filter="url(#badgeGlow)">
+      <animate attributeName="stroke-width" values="2;3;2" dur="3s" repeatCount="indefinite" begin="1s"/>
+    </rect>
+
+    <circle cx="50" cy="50" r="28" fill="url(#iconGlow3)">
+      <animate attributeName="r" values="28;34;28" dur="3s" repeatCount="indefinite" begin="1s"/>
+    </circle>
+
+    <svg x="32" y="32" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="url(#badgeGrad3)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+      <path d="M2 17l10 5 10-5"/>
+      <path d="M2 12l10 5 10-5"/>
+    </svg>
+
+    <text x="100" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#F8FAFC">Building in</text>
+    <text x="100" y="62" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="500" fill="#FBCFE8">Public</text>
+
+    <circle cx="235" cy="50" r="7" fill="url(#badgeGrad3)">
+      <animate attributeName="r" values="7;11;7" dur="1.8s" repeatCount="indefinite" begin="1s"/>
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="1.8s" repeatCount="indefinite" begin="1s"/>
+    </circle>
+
+    <g fill="url(#badgeGrad3)" opacity="0.5">
+      <circle cx="250" cy="20" r="2.5">
+        <animate attributeName="cy" values="20;15;20" dur="2.5s" repeatCount="indefinite" begin="1s"/>
+        <animate attributeName="opacity" values="0.5;0.9;0.5" dur="2s" repeatCount="indefinite" begin="1s"/>
+      </circle>
+      <circle cx="260" cy="75" r="2">
+        <animate attributeName="cy" values="75;70;75" dur="3s" repeatCount="indefinite" begin="1.5s"/>
+        <animate attributeName="opacity" values="0.4;0.8;0.4" dur="2.5s" repeatCount="indefinite" begin="1.5s"/>
+      </circle>
+    </g>
+  </g>
+</svg>

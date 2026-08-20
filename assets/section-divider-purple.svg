@@ -1,0 +1,91 @@
+<svg width="100%" height="60" viewBox="0 0 1200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="dividerGrad" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0"/>
+      <stop offset="15%" stop-color="#7C3AED" stop-opacity="0.3"/>
+      <stop offset="35%" stop-color="#A855F7" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#C026D3" stop-opacity="1"/>
+      <stop offset="65%" stop-color="#A855F7" stop-opacity="0.8"/>
+      <stop offset="85%" stop-color="#7C3AED" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="dividerGradAlt" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0"/>
+      <stop offset="15%" stop-color="#06B6D4" stop-opacity="0.3"/>
+      <stop offset="35%" stop-color="#22D3EE" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#06B6D4" stop-opacity="1"/>
+      <stop offset="65%" stop-color="#22D3EE" stop-opacity="0.8"/>
+      <stop offset="85%" stop-color="#06B6D4" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="centerGlowAlt" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Main divider line -->
+  <line x1="0" y1="30" x2="1200" y2="30" stroke="url(#dividerGrad)" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Secondary subtle line -->
+  <line x1="100" y1="30" x2="1100" y2="30" stroke="url(#dividerGradAlt)" stroke-width="1" stroke-linecap="round" opacity="0.4"/>
+
+  <!-- Center pulsing diamond -->
+  <g transform="translate(600, 30)">
+    <rect x="-10" y="-10" width="20" height="20" fill="url(#centerGlow)" filter="url(#glow)" transform="rotate(45)">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2.5s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="rotate" from="45 0 0" to="405 0 0" dur="20s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="-6" y="-6" width="12" height="12" fill="url(#centerGlowAlt)" filter="url(#glow)" transform="rotate(45)">
+      <animate attributeName="opacity" values="0.8;0.3;0.8" dur="3s" repeatCount="indefinite" begin="0.5s"/>
+      <animateTransform attributeName="transform" type="rotate" from="45 0 0" to="-315 0 0" dur="15s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="0" cy="0" r="4" fill="#F8FAFC">
+      <animate attributeName="r" values="4;7;4" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Floating particles along divider -->
+  <g fill="url(#centerGlow)" opacity="0.5">
+    <circle cx="150" cy="30" r="3">
+      <animate attributeName="cy" values="30;20;30" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="300" cy="30" r="2.5">
+      <animate attributeName="cy" values="30;38;30" dur="3.5s" repeatCount="indefinite" begin="0.5s"/>
+      <animate attributeName="opacity" values="0.4;0.9;0.4" dur="2.5s" repeatCount="indefinite" begin="0.5s"/>
+    </circle>
+    <circle cx="450" cy="30" r="3">
+      <animate attributeName="cy" values="30;22;30" dur="2.8s" repeatCount="indefinite" begin="1s"/>
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.2s" repeatCount="indefinite" begin="1s"/>
+    </circle>
+    <circle cx="750" cy="30" r="2.5">
+      <animate attributeName="cy" values="30;38;30" dur="3.2s" repeatCount="indefinite" begin="1.5s"/>
+      <animate attributeName="opacity" values="0.4;0.9;0.4" dur="2.8s" repeatCount="indefinite" begin="1.5s"/>
+    </circle>
+    <circle cx="900" cy="30" r="3">
+      <animate attributeName="cy" values="30;22;30" dur="3s" repeatCount="indefinite" begin="2s"/>
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.5s" repeatCount="indefinite" begin="2s"/>
+    </circle>
+    <circle cx="1050" cy="30" r="2">
+      <animate attributeName="cy" values="30;40;30" dur="4s" repeatCount="indefinite" begin="0.8s"/>
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="3s" repeatCount="indefinite" begin="0.8s"/>
+    </circle>
+  </g>
+</svg>

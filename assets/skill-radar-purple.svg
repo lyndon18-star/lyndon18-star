@@ -1,0 +1,227 @@
+<svg width="450" height="450" viewBox="0 0 450 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="radarFillGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.2"/>
+      <stop offset="50%" stop-color="#A855F7" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#C026D3" stop-opacity="0.15"/>
+    </linearGradient>
+
+    <linearGradient id="radarStrokeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#A855F7" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#C026D3" stop-opacity="0.3"/>
+    </linearGradient>
+
+    <linearGradient id="axisGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="centerGlowAlt" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="polygonGlow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background concentric polygons -->
+  <g stroke="url(#radarStrokeGrad)" stroke-width="1" fill="none" opacity="0.4">
+    <polygon points="225,35 405,75 415,225 405,375 225,415 45,375 35,225 45,75">
+      <animate attributeName="opacity" values="0.4;0.7;0.4" dur="4s" repeatCount="indefinite"/>
+    </polygon>
+    <polygon points="225,65 370,95 385,225 370,355 225,385 80,355 65,225 80,95">
+      <animate attributeName="opacity" values="0.4;0.6;0.4" dur="4s" repeatCount="indefinite" begin="0.8s"/>
+    </polygon>
+    <polygon points="225,95 335,115 355,225 335,335 225,355 115,335 95,225 115,115">
+      <animate attributeName="opacity" values="0.4;0.6;0.4" dur="4s" repeatCount="indefinite" begin="1.6s"/>
+    </polygon>
+    <polygon points="225,125 300,135 325,225 300,315 225,325 150,315 125,225 150,135">
+      <animate attributeName="opacity" values="0.4;0.6;0.4" dur="4s" repeatCount="indefinite" begin="2.4s"/>
+    </polygon>
+    <polygon points="225,155 265,155 285,225 265,295 225,295 185,295 165,225 185,155">
+      <animate attributeName="opacity" values="0.4;0.6;0.4" dur="4s" repeatCount="indefinite" begin="3.2s"/>
+    </polygon>
+  </g>
+
+  <!-- Axis lines -->
+  <g stroke="url(#axisGrad)" stroke-width="1.5" opacity="0.5">
+    <line x1="225" y1="225" x2="225" y2="35">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.5s" repeatCount="indefinite"/>
+    </line>
+    <line x1="225" y1="225" x2="405" y2="225">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.5s" repeatCount="indefinite" begin="0.3s"/>
+    </line>
+    <line x1="225" y1="225" x2="225" y2="415">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.5s" repeatCount="indefinite" begin="0.6s"/>
+    </line>
+    <line x1="225" y1="225" x2="45" y2="225">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.5s" repeatCount="indefinite" begin="0.9s"/>
+    </line>
+    <line x1="225" y1="225" x2="375" y2="65">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.5s" repeatCount="indefinite" begin="1.2s"/>
+    </line>
+    <line x1="225" y1="225" x2="375" y2="385">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.5s" repeatCount="indefinite" begin="1.5s"/>
+    </line>
+    <line x1="225" y1="225" x2="75" y2="385">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.5s" repeatCount="indefinite" begin="1.8s"/>
+    </line>
+    <line x1="225" y1="225" x2="75" y2="65">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.5s" repeatCount="indefinite" begin="2.1s"/>
+    </line>
+  </g>
+
+  <!-- Skill polygon (animated morphing) -->
+  <polygon points="225,40 395,65 410,225 395,385 225,410 55,385 40,225 55,65"
+           fill="url(#radarFillGrad)" stroke="#A855F7" stroke-width="2.5" filter="url(#polygonGlow)" opacity="0.85">
+    <animate attributeName="points" values="
+      225,40 395,65 410,225 395,385 225,410 55,385 40,225 55,65;
+      225,50 380,80 400,225 380,370 225,400 70,370 50,225 70,80;
+      225,35 400,60 415,225 400,390 225,415 50,390 35,225 50,60
+    " dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-width" values="2.5;3.5;2.5" dur="3s" repeatCount="indefinite"/>
+  </polygon>
+
+  <!-- Center glow -->
+  <circle cx="225" cy="225" r="30" fill="url(#centerGlow)" filter="url(#glow)">
+    <animate attributeName="r" values="30;40;30" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="225" cy="225" r="18" fill="url(#centerGlowAlt)" filter="url(#glow)">
+    <animate attributeName="r" values="18;25;18" dur="2.5s" repeatCount="indefinite" begin="0.5s"/>
+  </circle>
+  <circle cx="225" cy="225" r="8" fill="#F8FAFC">
+    <animate attributeName="r" values="8;12;8" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Rotating accent ring -->
+  <circle cx="225" cy="225" r="195" fill="none" stroke="#7C3AED" stroke-width="0.5" stroke-dasharray="6 12" opacity="0.15">
+    <animateTransform attributeName="transform" type="rotate" from="0 225 225" to="360 225 225" dur="30s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.15;0.3;0.15" dur="6s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="225" cy="225" r="170" fill="none" stroke="#22D3EE" stroke-width="0.5" stroke-dasharray="8 16" opacity="0.1">
+    <animateTransform attributeName="transform" type="rotate" from="360 225 225" to="0 225 225" dur="25s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Skill labels -->
+  <g font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#E2E8F0" font-weight="600">
+    <!-- Frontend - Top -->
+    <text x="225" y="15" text-anchor="middle" fill="#F8FAFC">
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3s" repeatCount="indefinite"/>
+    >Frontend</text>
+
+    <!-- React/Next.js - Top Right -->
+    <text x="405" y="70" text-anchor="start" font-size="10" fill="#D8B4FE" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="3s" repeatCount="indefinite" begin="0.3s"/>
+    >React / Next.js</text>
+
+    <!-- TypeScript - Right Upper -->
+    <text x="405" y="155" text-anchor="start" font-size="10" fill="#D8B4FE" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="3s" repeatCount="indefinite" begin="0.6s"/>
+    >TypeScript</text>
+
+    <!-- Backend - Right -->
+    <text x="420" y="230" text-anchor="start" fill="#F8FAFC">
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3s" repeatCount="indefinite" begin="0.9s"/>
+    >Backend</text>
+
+    <!-- Node/Python - Right Lower -->
+    <text x="405" y="295" text-anchor="start" font-size="10" fill="#D8B4FE" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="3s" repeatCount="indefinite" begin="1.2s"/>
+    >Node / Python</text>
+
+    <!-- Databases - Bottom Right -->
+    <text x="405" y="380" text-anchor="start" font-size="10" fill="#D8B4FE" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="3s" repeatCount="indefinite" begin="1.5s"/>
+    >PostgreSQL / Mongo</text>
+
+    <!-- DevOps - Bottom -->
+    <text x="225" y="430" text-anchor="middle" fill="#F8FAFC">
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3s" repeatCount="indefinite" begin="1.8s"/>
+    >DevOps / Cloud</text>
+
+    <!-- Docker/K8s - Bottom Left -->
+    <text x="15" y="380" text-anchor="end" font-size="10" fill="#D8B4FE" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="3s" repeatCount="indefinite" begin="2.1s"/>
+    >Docker / K8s</text>
+
+    <!-- Java - Left Lower -->
+    <text x="15" y="295" text-anchor="end" font-size="10" fill="#D8B4FE" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="3s" repeatCount="indefinite" begin="2.4s"/>
+    >Java / Spring</text>
+
+    <!-- Cloud - Left -->
+    <text x="0" y="230" text-anchor="end" fill="#F8FAFC">
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3s" repeatCount="indefinite" begin="2.7s"/>
+    >Cloud (AWS/Vercel)</text>
+
+    <!-- Mobile - Left Upper -->
+    <text x="15" y="155" text-anchor="end" font-size="10" fill="#D8B4FE" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="3s" repeatCount="indefinite" begin="3s"/>
+    >React Native</text>
+
+    <!-- Testing - Top Left -->
+    <text x="15" y="70" text-anchor="end" font-size="10" fill="#D8B4FE" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="3s" repeatCount="indefinite" begin="3.3s"/>
+    >Testing / CI</text>
+  </g>
+
+  <!-- Proficiency dots on axes -->
+  <g fill="#A855F7">
+    <circle cx="225" cy="55" r="6">
+      <animate attributeName="r" values="6;9;6" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="385" cy="225" r="5.5">
+      <animate attributeName="r" values="5.5;8;5.5" dur="2s" repeatCount="indefinite" begin="0.3s"/>
+    </circle>
+    <circle cx="225" cy="395" r="6">
+      <animate attributeName="r" values="6;9;6" dur="2s" repeatCount="indefinite" begin="0.6s"/>
+    </circle>
+    <circle cx="65" cy="225" r="5">
+      <animate attributeName="r" values="5;7;5" dur="2s" repeatCount="indefinite" begin="0.9s"/>
+    </circle>
+    <circle cx="360" cy="85" r="5">
+      <animate attributeName="r" values="5;7;5" dur="2s" repeatCount="indefinite" begin="1.2s"/>
+    </circle>
+    <circle cx="360" cy="365" r="4.5">
+      <animate attributeName="r" values="4.5;6.5;4.5" dur="2s" repeatCount="indefinite" begin="1.5s"/>
+    </circle>
+    <circle cx="90" cy="365" r="4.5">
+      <animate attributeName="r" values="4.5;6.5;4.5" dur="2s" repeatCount="indefinite" begin="1.8s"/>
+    </circle>
+    <circle cx="90" cy="85" r="4.5">
+      <animate attributeName="r" values="4.5;6.5;4.5" dur="2s" repeatCount="indefinite" begin="2.1s"/>
+    </circle>
+  </g>
+
+  <!-- Legend -->
+  <g transform="translate(225, 225)">
+    <text x="0" y="180" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#94A3B8" font-weight="500">
+      <tspan fill="#A855F7">●</tspan> Current Focus
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite"/>
+    </text>
+  </g>
+</svg>

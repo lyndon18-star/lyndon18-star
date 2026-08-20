@@ -2,21 +2,26 @@
 
 This repository (`lyndon18-star`) is your **GitHub Profile README** — it renders on your profile page at `https://github.com/lyndon18-star`.
 
-## ✅ What's Already Working
+## ✅ What's Already Working (Purple Theme v2.0)
 
 | Feature | Status |
 |---------|--------|
-| Typing animation header | ✅ Live |
-| Identity badges (location, student, availability) | ✅ Live |
-| Social proof counters (followers, stars, commits) | ✅ Live |
-| Custom animated SVG circuit divider | ✅ Live |
-| Featured projects with real repo links | ✅ Live |
-| Skillicons tech stack | ✅ Live |
+| Hero Identity Header (animated SVG) | ✅ Live |
+| Animated Section Dividers | ✅ Live |
+| Tech Wave Dividers with floating labels | ✅ Live |
+| Stats Grid with animated counters | ✅ Live |
+| Skill Radar Chart (12-axis, morphing) | ✅ Live |
+| Live Code Typing Animation | ✅ Live |
+| Multi-layer Particle Background | ✅ Live |
+| Floating Badge System | ✅ Live |
+| Featured Projects Table | ✅ Live |
+| Skillicons Tech Stack | ✅ Live |
 | GitHub Stats / Streak / Top Languages | ✅ Live |
-| GitHub Trophies | ✅ Live |
-| Connect buttons (GitHub, LinkedIn, X, Discord, Email) | ✅ Live |
-| Profile views counter | ✅ Live |
-| Footer wave animation | ✅ Live |
+| Contribution Activity Graph | ✅ Live |
+| WakaTime Stats | ✅ Live |
+| Visitor Map Badge | ✅ Live |
+| Connect Buttons | ✅ Live |
+| Support Buttons (Sponsors, Ko-fi) | ✅ Live |
 
 ## ⚙️ Dynamic Elements Requiring Setup
 
@@ -28,7 +33,7 @@ This repository (`lyndon18-star`) is your **GitHub Profile README** — it rende
 2. Under "Workflow permissions" → Select **"Read and write permissions"**
 3. Save
 4. Go to **Actions** tab → "Generate Snake Animation" → **Run workflow**
-5. Wait for completion → The SVG will appear at `dist/github-contribution-grid-snake.svg`
+5. Wait for completion → The SVG will appear at `output/github-contribution-grid-snake.svg`
 6. The README already references: `https://raw.githubusercontent.com/lyndon18-star/lyndon18-star/output/github-contribution-grid-snake.svg`
 
 > **Note:** The workflow uses `outputs: dist/` but the README references `output/`. Either:
@@ -55,15 +60,36 @@ This repository (`lyndon18-star`) is your **GitHub Profile README** — it rende
 2. Or use [visitor-badge.glitch.me](https://visitor-badge.glitch.me) with custom config
 
 ### 4. GitHub Stats Theme Customization
-Current theme: `transparent` with custom gradient (`bg_color=0d1117,161b22,0d1117`)
+Current theme: `tokyonight` with custom purple colors matching the profile theme
 
-**To change colors:** Edit the `bg_color`, `title_color`, `text_color`, `icon_color`, `border_color` params in the stats URLs.
+**Color params used:**
+- `bg_color=0F0A1A` (Deep Space)
+- `title_color=A855F7` (Vibrant Violet)
+- `text_color=E2E8F0` (Primary Text)
+- `icon_color=C026D3` (Magenta)
+- `border_color=3D2A5C` (Border Purple)
+
+## 🎨 Custom SVG Assets (All in `/assets/`)
+
+| Asset | Dimensions | Description |
+|-------|------------|-------------|
+| `hero-header.svg` | 1200×280 | Animated identity badge with hexagon core, orbiting particles, circuit lines, floating code brackets |
+| `section-divider-purple.svg` | 1200×80 | Animated divider with pulsing diamond, circuit traces, floating particles |
+| `tech-wave-purple.svg` | 1200×140 | 4-layer wave divider with tech labels, pulsing nodes, geometric shapes |
+| `stats-grid-purple.svg` | 900×200 | 4 animated stat cards with glowing borders, counters, progress bars, circuit connections |
+| `skill-radar-purple.svg` | 450×450 | 12-axis radar chart with morphing polygon, rotating rings, proficiency dots |
+| `code-animation-purple.svg` | 700×220 | Terminal animation with 17 lines of TypeScript/React code typing sequentially |
+| `particles-purple.svg` | 1200×220 | Multi-layer particle background with 5 color gradients, floating symbols, circuit lines |
+| `floating-badge-purple.svg` | 280×100 | 3 animated badges with pulsing borders, icons, floating particles |
+
+**All animations use CSS SMIL** — compatible with GitHub README rendering (no JavaScript required).
 
 ## 🔧 Customization Checklist
 
 ### Update These with Your Info:
 - [ ] Portfolio URL (currently placeholder)
 - [ ] Discord invite link (currently placeholder)
+- [ ] Twitter/X handle (currently placeholder)
 - [ ] Project descriptions — add real descriptions to each repo
 - [ ] Add screenshots/GIFs to project cards (optional but recommended)
 
@@ -75,21 +101,31 @@ For each featured repo, add:
 - [ ] README with screenshots/GIFs
 
 ### Optional Enhancements:
-- [ ] Add **GitHub Sponsors** / **Ko-fi** button
+- [ ] Add **GitHub Sponsors** / **Ko-fi** button (already in template, just add your links)
 - [ ] Add **Blog posts** section (if you write on Dev.to/Hashnode/Medium)
 - [ ] Add **Certifications** / **Achievements** section
-- [ ] Create **custom mascot/logo SVG** for unique branding
+- [ ] Customize skill radar labels to match your actual focus areas
 
 ## 📁 File Structure
 
 ```
 lyndon18-star/
-├── README.md                 # Your profile README (this file)
-├── PROFILE_SETUP.md          # This setup guide
+├── README.md                    # Your profile README
+├── PROFILE_SETUP.md             # This setup guide
+├── assets/                      # Custom animated SVGs (purple theme)
+│   ├── hero-header.svg
+│   ├── section-divider-purple.svg
+│   ├── tech-wave-purple.svg
+│   ├── stats-grid-purple.svg
+│   ├── skill-radar-purple.svg
+│   ├── code-animation-purple.svg
+│   ├── particles-purple.svg
+│   ├── floating-badge-purple.svg
+│   └── purple-theme-palette.md  # Color system documentation
 ├── .github/
 │   └── workflows/
-│       └── snake.yml         # Snake animation generator
-└── dist/                     # Generated by workflow (auto-created)
+│       └── snake.yml            # Snake animation generator
+└── output/                      # Generated by workflow (auto-created)
     ├── github-contribution-grid-snake.svg
     └── github-contribution-grid-snake-dark.svg
 ```
@@ -107,16 +143,30 @@ gh run list --workflow=snake.yml
 open dist/github-contribution-grid-snake.svg
 ```
 
-## 🎨 Color Palette Used
+## 🎨 Purple Theme Color Palette
 
-| Color | Hex | Usage |
-|-------|-----|-------|
-| Deep Navy | `#0B1220` | Primary dark, badge labels |
-| Cyan | `#38BDF8` | Primary accent, links, highlights |
-| Emerald | `#22C55E` | Success, available badges |
-| Amber | `#FBBF24` | Warning, learning badges |
-| Violet | `#A78BFA` | Learning, purple accents |
-| Pink | `#F472B6` | Profile size, fun accents |
+| Color Role | Hex | Usage |
+|------------|-----|-------|
+| Deep Violet | `#4C1D95` | Primary actions, headers |
+| Royal Purple | `#7C3AED` | Primary brand, borders |
+| Vibrant Violet | `#A855F7` | Accents, glows, highlights |
+| Magenta | `#C026D3` | Secondary accents, gradients |
+| Pink Accent | `#F472B6` | Tertiary, playful elements |
+| Electric Cyan | `#06B6D4` | Code, links, technical |
+| Bright Cyan | `#22D3EE` | Highlights, data viz |
+| Teal Green | `#14B8A6` | Success, growth indicators |
+| Amber Gold | `#FBBF24` | Warnings, stars, energy |
+| **Backgrounds** | | |
+| Deep Space | `#0F0A1A` | Primary background |
+| Dark Purple | `#1A0F2E` | Card backgrounds |
+| Elevated Purple | `#24153B` | Elevated surfaces |
+| Border Purple | `#3D2A5C` | Subtle borders, dividers |
+| **Text** | | |
+| Muted Text | `#94A3B8` | Secondary text |
+| Primary Text | `#E2E8F0` | Main content |
+| Bright Text | `#F8FAFC` | Headlines, emphasis |
+
+See `assets/purple-theme-palette.md` for complete documentation including gradients, shadows, spacing, and z-index system.
 
 ## 🔗 Useful References
 
@@ -127,7 +177,8 @@ open dist/github-contribution-grid-snake.svg
 - [Streak Stats](https://github.com/DenverCoder1/github-readme-streak-stats)
 - [GitHub Profile Trophy](https://github.com/ryo-ma/github-profile-trophy)
 - [Snake Animation](https://github.com/Platane/snk)
+- [SVG SMIL Animation Guide](https://developer.mozilla.org/en-US/docs/Web/SVG/SVG_animation_with_SMIL)
 
 ---
 
-**Need help?** Open an issue in this repo or DM me on Discord! 💙
+**Need help?** Open an issue in this repo or DM me on Discord! 💜
