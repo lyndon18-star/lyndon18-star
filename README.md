@@ -1,4 +1,4 @@
-<p align="center">
+﻿<p align="center">
   <img src="assets/hero-header.svg" alt="Lyndon Bautista - Creative Developer" width="100%" />
 </p>
 
@@ -17,12 +17,12 @@
 </p>
 
 <p align="center">
-  <b><i>2nd Year IT Student • Manila, Philippines • Building useful software with purple passion</i></b>
+  <i>2nd Year IT Student • Manila, Philippines • Design-minded developer building useful software</i>
 </p>
 
 <p align="center">
   <a href="https://github.com/lyndon18-star">
-    <img src="https://img.shields.io/badge/GitHub-lyndon18%2Dstar-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile" />
+    <img src="https://img.shields.io/badge/GitHub-lyndon18%2Dstar-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
   <a href="https://www.linkedin.com/in/lyndon-bautista-3a8b2b254/">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-06B6D4?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
@@ -36,24 +36,32 @@
 </p>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Status-Open%20to%20collaborate-22C55E?style=for-the-badge" alt="Open to collaborate" />
+  <img src="https://img.shields.io/badge/Focus-Fullstack%20%26%20UI%20Engineering-8B5CF6?style=for-the-badge" alt="Focus" />
+  <img src="https://img.shields.io/badge/Learning-React%20%7C%20TypeScript%20%7C%20Rust-EC4899?style=for-the-badge" alt="Learning" />
+</p>
+
+<p align="center">
   <img src="assets/section-divider-purple.svg" alt="divider" width="100%" />
 </p>
 
 ---
 
-## 🌟 About Me
+## 👋 About Me
 
 <p align="center">
-  <img src="assets/floating-badge-purple.svg" alt="badges" width="100%" />
+  <img src="assets/floating-badge-purple.svg" alt="floating badges" width="100%" />
 </p>
 
-```typescript
+I build products that feel clean, useful, and memorable. I enjoy frontend engineering, interface design, and turning ideas into thoughtful digital experiences that people actually enjoy using.
+
+```ts
 interface Developer {
   name: string;
   role: string;
   location: string;
-  passion: string[];
-  currentlyLearning: string[];
+  passions: string[];
+  learning: string[];
   philosophy: string;
 }
 
@@ -61,21 +69,50 @@ const me: Developer = {
   name: "Lyndon Bautista",
   role: "2nd Year IT Student",
   location: "Manila, Philippines 🇵🇭",
-  passion: [
-    "Creative Web Development",
-    "Developer Experience (DX)",
-    "Open Source Contribution",
-    "Purple-Themed Everything ✨"
+  passions: [
+    "Creative web development",
+    "Developer experience",
+    "Productive tooling",
+    "Design-driven engineering"
   ],
-  currentlyLearning: [
-    "Advanced TypeScript Patterns",
-    "Rust Systems Programming",
-    "Cloud Architecture (AWS/GCP)",
-    "Developer Tooling"
+  learning: [
+    "Advanced TypeScript",
+    "Rust systems programming",
+    "Cloud architecture",
+    "Developer tooling"
   ],
-  philosophy: "Code is art. Make it beautiful, make it useful, make it purple."
+  philosophy: "Code should be useful, expressive, and a little bit magical."
 };
 ```
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h3>🎯 Focus</h3>
+      <ul>
+        <li>Frontend architecture</li>
+        <li>UI/UX polish</li>
+        <li>Productive workflows</li>
+      </ul>
+    </td>
+    <td width="33%" valign="top">
+      <h3>⚡ Building</h3>
+      <ul>
+        <li>Modern web apps</li>
+        <li>Developer tools</li>
+        <li>Creative portfolio pieces</li>
+      </ul>
+    </td>
+    <td width="33%" valign="top">
+      <h3>💡 Values</h3>
+      <ul>
+        <li>Readable code</li>
+        <li>Clean design</li>
+        <li>Continuous learning</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 <p align="center">
   <img src="assets/section-divider-purple.svg" alt="divider" width="100%" />
@@ -114,22 +151,18 @@ const me: Developer = {
 
 ---
 
-## 🎯 Skill Radar
+## 🎯 Skills
 
 <p align="center">
   <img src="assets/skill-radar-purple.svg" alt="Skill Radar Chart" width="100%" />
 </p>
 
 <p align="center">
-  <img src="assets/section-divider-purple.svg" alt="divider" width="100%" />
+  <img src="https://skillicons.dev/icons?i=react,nextjs,typescript,tailwind,nodejs,express,postgresql,mongodb,redis,docker,kubernetes,aws,vercel,git,github,vscode,figma,rust,python,java,spring" alt="Tech stack" />
 </p>
 
----
-
-## 💻 Live Coding Session
-
 <p align="center">
-  <img src="assets/code-animation-purple.svg" alt="Live Code Animation" width="100%" />
+  <img src="https://skillicons.dev/icons?i=html,css,sass,js,ts,webpack,vite,jest,vitest,cypress,eslint,prettier,nginx,linux,bash,prisma,graphql,restapi,websockets" alt="More tools" />
 </p>
 
 <p align="center">
@@ -145,8 +178,8 @@ const me: Developer = {
 | **Purple Portfolio** | Personal portfolio with animated purple theme, particle systems, and smooth transitions | Next.js, TypeScript, Framer Motion, Tailwind | 🟢 Active |
 | **CodeCat CLI** | Developer productivity tool with purple-themed terminal UI and plugin system | Rust, Clap, Tokio, Crossterm | 🟡 WIP |
 | **Violet UI Kit** | Accessible component library with purple design tokens and dark mode first | React, TypeScript, Storybook, Tailwind | 🟢 Active |
-| **Particle Playground** | Interactive canvas particle system with purple/violet color presets | TypeScript, Canvas API, WebGL | 🟢 Active |
-| **DevTools Purple** | VS Code extension with purple theme, snippets, and productivity shortcuts | TypeScript, VS Code API, Webpack | 🟡 WIP |
+| **Particle Playground** | Interactive canvas particle system with violet color presets and motion-rich scenes | TypeScript, Canvas API, WebGL | 🟢 Active |
+| **DevTools Purple** | VS Code extension with productivity snippets, themes, and workflow shortcuts | TypeScript, VS Code API, Webpack | 🟡 WIP |
 
 <p align="center">
   <a href="https://github.com/lyndon18-star?tab=repositories">
@@ -160,14 +193,10 @@ const me: Developer = {
 
 ---
 
-## 🛠️ Tech Stack
+## 💻 Live Coding Session
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,typescript,tailwind,nodejs,express,postgresql,mongodb,redis,docker,kubernetes,aws,vercel,git,github,vscode,figma,rust,python,java,spring" alt="Tech Stack" />
-</p>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,sass,js,ts,webpack,vite,jest,vitest,cypress,eslint,prettier,nginx,linux,bash,prisma,graphql,restapi,websockets" alt="More Tech" />
+  <img src="assets/code-animation-purple.svg" alt="Live Code Animation" width="100%" />
 </p>
 
 <p align="center">
@@ -217,10 +246,10 @@ const me: Developer = {
 
 ---
 
-## 🤝 Connect & Collaborate
+## 🤝 Connect
 
 <p align="center">
-  <img src="assets/floating-badge-purple.svg" alt="Connect Badges" width="100%" />
+  <img src="assets/floating-badge-purple.svg" alt="Connect badges" width="100%" />
 </p>
 
 <p align="center">
@@ -242,79 +271,9 @@ const me: Developer = {
 </p>
 
 <p align="center">
-  <img src="assets/section-divider-purple.svg" alt="divider" width="100%" />
-</p>
-
----
-
-## 💜 Support My Work
-
-<p align="center">
-  If you enjoy my projects or find them useful, consider supporting me:
-</p>
-
-<p align="center">
-  <a href="https://github.com/sponsors/lyndon18-star">
-    <img src="https://img.shields.io/badge/GitHub%20Sponsors-Support-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="GitHub Sponsors" />
-  </a>
-  <a href="https://ko-fi.com/">
-    <img src="https://img.shields.io/badge/Ko--fi-Buy%20Me%20Coffee-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white" alt="Ko-fi" />
-  </a>
-  <a href="https://www.buymeacoffee.com/">
-    <img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Support-FFD700?style=for-the-badge&logo=buymeacoffee&logoColor=black" alt="Buy Me A Coffee" />
-  </a>
+  <i>Let’s build something meaningful together.</i>
 </p>
 
 <p align="center">
   <img src="assets/section-divider-purple.svg" alt="divider" width="100%" />
 </p>
-
----
-
-## 📝 License & Credits
-
-<p align="center">
-  <b>This profile is open source.</b> Feel free to fork, customize, and make it your own!
-</p>
-
-<p align="center">
-  Built with 💜 by <a href="https://github.com/lyndon18-star">Lyndon Bautista</a> • Inspired by the developer community
-</p>
-
-<p align="center">
-  <img src="assets/tech-wave-purple.svg" alt="tech wave" width="100%" />
-</p>
-
-<p align="center">
-  <sub>Last updated: <span id="date"></span> • <a href="https://github.com/lyndon18-star/lyndon18-star/blob/main/README.md">View Source</a></sub>
-</p>
-
-<script>
-  document.getElementById('date').textContent = new Date().toLocaleDateString('en-US', {
-    year: 'numeric', month: 'long', day: 'numeric'
-  });
-</script>
-
-<!--
-  ┌─────────────────────────────────────────────────────────────┐
-  │                    PURPLE THEME PALETTE                     │
-  ├─────────────────────────────────────────────────────────────┤
-  │  Deep Violet      #4C1D95  │  Primary actions, headers      │
-  │  Royal Purple     #7C3AED  │  Primary brand, borders        │
-  │  Vibrant Violet   #A855F7  │  Accents, glows, highlights    │
-  │  Magenta          #C026D3  │  Secondary accents, gradients  │
-  │  Pink Accent      #F472B6  │  Tertiary, playful elements    │
-  │  Electric Cyan    #06B6D4  │  Code, links, technical        │
-  │  Bright Cyan      #22D3EE  │  Highlights, data viz          │
-  │  Teal Green       #14B8A6  │  Success, growth indicators    │
-  │  Amber Gold       #FBBF24  │  Warnings, stars, energy       │
-  ├─────────────────────────────────────────────────────────────┤
-  │  Deep Space       #0F0A1A  │  Primary background            │
-  │  Dark Purple      #1A0F2E  │  Card backgrounds              │
-  │  Elevated Purple  #24153B  │  Elevated surfaces             │
-  │  Border Purple    #3D2A5C  │  Subtle borders, dividers      │
-  │  Muted Text       #94A3B8  │  Secondary text                │
-  │  Primary Text     #E2E8F0  │  Main content                  │
-  │  Bright Text      #F8FAFC  │  Headlines, emphasis           │
-  └─────────────────────────────────────────────────────────────┘
--->
