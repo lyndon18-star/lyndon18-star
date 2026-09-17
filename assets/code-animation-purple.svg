@@ -117,17 +117,17 @@
     <!-- Line 10 -->
     <text x="48" y="304" opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.4s" begin="5.4s" fill="freeze" />
-    ><tspan fill="#FF7B72"><</tspan><tspan fill="#FFA657">motion.div</tspan> <tspan fill="#9CDCFE">initial</tspan><tspan fill="#D2A8FF">=</tspan><tspan fill="#D2A8FF">{{</tspan><tspan fill="#D4D4D4">opacity:</tspan> <tspan fill="#B5CEA8">0</tspan><tspan fill="#D2A8FF">}}</tspan> <tspan fill="#9CDCFE">animate</tspan><tspan fill="#D2A8FF">=</tspan><tspan fill="#D2A8FF">{{</tspan><tspan fill="#D4D4D4">opacity:</tspan> <tspan fill="#B5CEA8">1</tspan><tspan fill="#D2A8FF">}}</tspan> <tspan fill="#9CDCFE">transition</tspan><tspan fill="#D2A8FF">=</tspan><tspan fill="#D2A8FF">{{</tspan><tspan fill="#D4D4D4">duration:</tspan> <tspan fill="#B5CEA8">0.8</tspan><tspan fill="#D2A8FF">}}</tspan><tspan fill="#FF7B72">></tspan></text>
+    ><tspan fill="#FF7B72">&lt;</tspan><tspan fill="#FFA657">motion.div</tspan> <tspan fill="#9CDCFE">initial</tspan><tspan fill="#D2A8FF">=</tspan><tspan fill="#D2A8FF">{{</tspan><tspan fill="#D4D4D4">opacity:</tspan> <tspan fill="#B5CEA8">0</tspan><tspan fill="#D2A8FF">}}</tspan> <tspan fill="#9CDCFE">animate</tspan><tspan fill="#D2A8FF">=</tspan><tspan fill="#D2A8FF">{{</tspan><tspan fill="#D4D4D4">opacity:</tspan> <tspan fill="#B5CEA8">1</tspan><tspan fill="#D2A8FF">}}</tspan> <tspan fill="#9CDCFE">transition</tspan><tspan fill="#D2A8FF">=</tspan><tspan fill="#D2A8FF">{{</tspan><tspan fill="#D4D4D4">duration:</tspan> <tspan fill="#B5CEA8">0.8</tspan><tspan fill="#D2A8FF">}}</tspan><tspan fill="#FF7B72">></tspan></text>
 
     <!-- Line 11 -->
     <text x="72" y="330" opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.4s" begin="5.8s" fill="freeze" />
-    ><tspan fill="#FF7B72"><</tspan><tspan fill="#FFA657">CodeCat</tspan> <tspan fill="#9CDCFE">className</tspan><tspan fill="#D2A8FF">=</tspan><tspan fill="#D2A8FF">"</tspan><tspan fill="#CE9178">hero-mascot</tspan><tspan fill="#D2A8FF">"</tspan> <tspan fill="#FF7B72">/></tspan></text>
+    ><tspan fill="#FF7B72">&lt;</tspan><tspan fill="#FFA657">CodeCat</tspan> <tspan fill="#9CDCFE">className</tspan><tspan fill="#D2A8FF">=</tspan><tspan fill="#D2A8FF">"</tspan><tspan fill="#CE9178">hero-mascot</tspan><tspan fill="#D2A8FF">"</tspan> <tspan fill="#FF7B72">/></tspan></text>
 
     <!-- Line 12 -->
     <text x="72" y="356" opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.4s" begin="6.2s" fill="freeze" />
-    ><tspan fill="#FF7B72"><</tspan><tspan fill="#FFA657">h1</tspan> <tspan fill="#9CDCFE">className</tspan><tspan fill="#D2A8FF">=</tspan><tspan fill="#D2A8FF">"</tspan><tspan fill="#CE9178">gradient-text</tspan><tspan fill="#D2A8FF">"</tspan><tspan fill="#FF7B72">></tspan></text>
+    ><tspan fill="#FF7B72">&lt;</tspan><tspan fill="#FFA657">h1</tspan> <tspan fill="#9CDCFE">className</tspan><tspan fill="#D2A8FF">=</tspan><tspan fill="#D2A8FF">"</tspan><tspan fill="#CE9178">gradient-text</tspan><tspan fill="#D2A8FF">"</tspan><tspan fill="#FF7B72">></tspan></text>
 
     <!-- Line 13 - Animated text -->
     <text x="96" y="382" opacity="0">
@@ -137,17 +137,17 @@
     <!-- Line 14 -->
     <text x="72" y="408" opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.4s" begin="7s" fill="freeze" />
-    ><tspan fill="#FF7B72"></</tspan><tspan fill="#FFA657">h1</tspan><tspan fill="#FF7B72">></tspan></text>
+    ><tspan fill="#FF7B72">&lt;/</tspan><tspan fill="#FFA657">h1</tspan><tspan fill="#FF7B72">></tspan></text>
 
     <!-- Line 15 -->
     <text x="48" y="434" opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.4s" begin="7.4s" fill="freeze" />
-    ><tspan fill="#FF7B72"><</tspan><tspan fill="#FFA657">ParticleField</tspan> <tspan fill="#9CDCFE">count</tspan><tspan fill="#D2A8FF">=</tspan><tspan fill="#D2A8FF">{{</tspan><tspan fill="#B5CEA8">50</tspan><tspan fill="#D2A8FF">}}</tspan> <tspan fill="#9CDCFE">colors</tspan><tspan fill="#D2A8FF">=</tspan><tspan fill="#D2A8FF">{{</tspan><tspan fill="#B5CEA8">theme</tspan><tspan fill="#D2A8FF">}}</tspan> <tspan fill="#FF7B72">/></tspan></text>
+    ><tspan fill="#FF7B72">&lt;</tspan><tspan fill="#FFA657">ParticleField</tspan> <tspan fill="#9CDCFE">count</tspan><tspan fill="#D2A8FF">=</tspan><tspan fill="#D2A8FF">{{</tspan><tspan fill="#B5CEA8">50</tspan><tspan fill="#D2A8FF">}}</tspan> <tspan fill="#9CDCFE">colors</tspan><tspan fill="#D2A8FF">=</tspan><tspan fill="#D2A8FF">{{</tspan><tspan fill="#B5CEA8">theme</tspan><tspan fill="#D2A8FF">}}</tspan> <tspan fill="#FF7B72">/></tspan></text>
 
     <!-- Line 16 -->
     <text x="24" y="460" opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.4s" begin="7.8s" fill="freeze" />
-    ><tspan fill="#FF7B72"></</tspan><tspan fill="#FFA657">motion.div</tspan><tspan fill="#FF7B72">></tspan></text>
+    ><tspan fill="#FF7B72">&lt;/</tspan><tspan fill="#FFA657">motion.div</tspan><tspan fill="#FF7B72">></tspan></text>
 
     <!-- Line 17 -->
     <text x="24" y="486" opacity="0">

@@ -124,16 +124,6 @@ const me: Developer = {
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=lyndon18-star&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0F0A1A&title_color=A855F7&text_color=E2E8F0&icon_color=C026D3&border_color=3D2A5C&custom_title=GitHub%20Overview&cache_seconds=1800" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lyndon18-star&layout=compact&theme=tokyonight&hide_border=true&bg_color=0F0A1A&title_color=A855F7&text_color=E2E8F0&border_color=3D2A5C&langs_count=8&cache_seconds=1800" alt="Top Languages" width="48%" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=lyndon18-star&theme=tokyonight&hide_border=true&background=0F0A1A&stroke=7C3AED&ring=A855F7&fire=C026D3&currStreakLabel=F472B6&sideNums=E2E8F0&sideLabels=94A3B8&dates=D8B4FE" alt="GitHub Streak" width="48%" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=lyndon18-star&theme=tokyonight&bg_color=0F0A1A&title_color=A855F7&text_color=E2E8F0&icon_color=C026D3&border_color=3D2A5C" alt="Profile Details" width="48%" />
-</p>
-
-<p align="center">
   <a href="https://github.com/lyndon18-star?tab=repositories">
     <img src="https://img.shields.io/badge/Repositories-View%20All-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" />
   </a>
@@ -205,28 +195,13 @@ const me: Developer = {
 ## 📈 Contribution Activity
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=lyndon18-star&theme=tokyo-night&bg_color=0F0A1A&color=A855F7&line=A855F7&point=C026D3&area=true&area_color=7C3AED&hide_border=true" alt="Contribution Graph" width="100%" />
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/lyndon18-star/lyndon18-star/output/github-contribution-grid-snake.svg" alt="Contribution Snake" width="100%" />
+  <a href="https://github.com/lyndon18-star?tab=overview&from=2025-01-01&to=2025-12-31">
+    <img src="https://img.shields.io/badge/View%20my%20contributions-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="View GitHub contributions" />
+  </a>
 </p>
 
 <p align="center">
   <img src="assets/tech-wave-purple.svg" alt="tech wave" width="100%" />
-</p>
-
----
-
-## 🎨 WakaTime Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=lyndon18-star&theme=tokyonight&hide_border=true&bg_color=0F0A1A&title_color=A855F7&text_color=E2E8F0&icon_color=C026D3&border_color=3D2A5C&layout=compact&cache_seconds=1800" alt="WakaTime Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=lyndon18-star&theme=tokyonight&hide_border=true&bg_color=0F0A1A&title_color=A855F7&text_color=E2E8F0&icon_color=C026D3&border_color=3D2A5C&layout=compact&range=last_7_days&cache_seconds=1800" alt="WakaTime Weekly" width="48%" />
-</p>
-
-<p align="center">
-  <img src="assets/section-divider-purple.svg" alt="divider" width="100%" />
 </p>
 
 ---

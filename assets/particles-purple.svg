@@ -167,11 +167,11 @@
     <text x="600" y="105">]</text>
     <text x="760" y="85">(</text>
     <text x="920" y="75">)</text>
-    <text x="180" y="150"><</text>
-    <text x="340" y="165">></text>
+    <text x="180" y="150">&lt;</text>
+    <text x="340" y="165">&gt;</text>
     <text x="520" y="145">=</text>
     <text x="680" y="155">=</text>
-    <text x="840" y="165">></text>
+    <text x="840" y="165">&gt;</text>
     <text x="980" y="150">{</text>
     <text x="1140" y="155">}</text>
   </g>

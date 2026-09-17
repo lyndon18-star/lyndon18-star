@@ -97,7 +97,7 @@
     </svg>
 
     <text x="100" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#F8FAFC">Available For</text>
-    <text x="100" y="62" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="500" fill="#A5F3FC">Internship & Freelance</text>
+    <text x="100" y="62" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="500" fill="#A5F3FC">Internship &amp; Freelance</text>
 
     <circle cx="235" cy="50" r="7" fill="url(#badgeGrad2)">
       <animate attributeName="r" values="7;11;7" dur="1.8s" repeatCount="indefinite" begin="0.5s"/>
