@@ -30,9 +30,6 @@
   <a href="mailto:lyndon.bautista@student.com">
     <img src="https://img.shields.io/badge/Email-Contact-C026D3?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-  <a href="https://discord.gg/">
-    <img src="https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
-  </a>
 </p>
 
 <p align="center">
@@ -259,14 +256,8 @@ const me: Developer = {
   <a href="https://www.linkedin.com/in/lyndon-bautista-3a8b2b254/">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-06B6D4?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" />
   </a>
-  <a href="https://twitter.com/">
-    <img src="https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Follow on Twitter" />
-  </a>
   <a href="mailto:lyndon.bautista@student.com">
     <img src="https://img.shields.io/badge/Email-Say%20Hi-C026D3?style=for-the-badge&logo=gmail&logoColor=white" alt="Send Email" />
-  </a>
-  <a href="https://discord.gg/">
-    <img src="https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Join Discord" />
   </a>
 </p>
 
