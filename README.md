@@ -214,6 +214,48 @@ const lyndon: Developer = {
 
 ---
 
+## 🕹️ Arcade Mode
+
+<p align="center">
+  <img src="assets/arcade-game-purple.svg" alt="Animated space-invaders arcade scene" width="100%" />
+</p>
+
+<p align="center">
+  <i>Marching alien fleet, evasive ship, photon fire, blinking PRESS START — 100% SMIL animation, zero JavaScript.</i>
+</p>
+
+<details>
+  <summary><b>🎮 Bonus level — 3-question mini quiz</b> <i>(click to play)</i></summary>
+
+**Q1 — Which repo is the featured build on this profile?**
+
+<details>
+<summary>Reveal answer</summary>
+🟢 <b>MUSEUM</b> — a vanilla JavaScript, CSS, and HTML build.
+</details>
+
+**Q2 — How many public repos are on this account?**
+
+<details>
+<summary>Reveal answer</summary>
+📦 <b>15</b> — and counting.
+</details>
+
+**Q3 — What line does the typewriter tag up top spell out?**
+
+<details>
+<summary>Reveal answer</summary>
+✨ "Code should be useful, expressive, and a little bit magical."
+</details>
+
+</details>
+
+<p align="center">
+  <img src="assets/section-divider-purple.svg?v=2" alt="divider" width="100%" />
+</p>
+
+---
+
 ## 📈 Contribution Activity
 
 <p align="center">

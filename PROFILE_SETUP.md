@@ -82,6 +82,7 @@ Current theme: `tokyonight` with custom purple colors matching the profile theme
 | `project-card-purple.svg` | 320×180 | Compact featured-project card (currently featuring **MUSEUM** — real stars/tech) with glow-border pulse, icon, title, animated status dot, tech pills, description, star line |
 | `skill-radar-purple.svg` | 450×450 | 12-axis radar chart with morphing polygon, rotating rings, proficiency dots |
 | `code-animation-purple.svg` | 700×220 | Terminal animation with 17 lines of TypeScript/React code typing sequentially |
+| `arcade-game-purple.svg` | 1200×220 | Space-invaders arcade scene: stepped alien-fleet march, gliding ship, looping photon fire, falling bomb, blinking PRESS START, fake score ticker |
 | `particles-purple.svg` | 1200×220 | Multi-layer particle background with 5 color gradients, floating symbols, circuit lines |
 | `floating-badge-purple.svg` | 280×100 | 3 animated badges with pulsing borders, icons, floating particles |
 
@@ -126,6 +127,7 @@ lyndon18-star/
 │   ├── project-card-purple.svg
 │   ├── skill-radar-purple.svg
 │   ├── code-animation-purple.svg
+│   ├── arcade-game-purple.svg
 │   ├── particles-purple.svg
 │   ├── floating-badge-purple.svg
 │   └── purple-theme-palette.md  # Color system documentation
