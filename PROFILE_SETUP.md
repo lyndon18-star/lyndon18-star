@@ -75,11 +75,11 @@ Current theme: `tokyonight` with custom purple colors matching the profile theme
 | Asset | Dimensions | Description |
 |-------|------------|-------------|
 | `hero-header.svg` | 1200×180 | Animated identity header with entrance fade, stronger glow-pulse orbs/rings, ambient code accents |
-| `typewriter-tagline-purple.svg` | 600×32 | Character-by-character typewriter reveal of "Designing full-stack; Building useful software" |
+| `typewriter-tagline-purple.svg` | 600×32 | Character-by-character typewriter reveal of "Code should be useful, expressive, and a little bit magical" |
 | `section-divider-purple.svg` | 1200×60 | Animated divider with pulsing diamond, circuit traces, floating particles |
 | `tech-wave-purple.svg` | 1200×80 | 4-layer wave divider with entrance fade, stronger node pulses, tech labels, geometric shapes |
 | `stats-grid-purple.svg` | 450×110 | Compact 2×2 stat cards with entrance fade, glow pulses, counters, progress-bar fills |
-| `project-card-purple.svg` | 320×180 | Compact featured-project card (currently featuring **FIXKO_PROJECT** — real stars/tech) with glow-border pulse, icon, title, animated status dot, tech pills, description, star line |
+| `project-card-purple.svg` | 320×180 | Compact featured-project card (currently featuring **MUSEUM** — real stars/tech) with glow-border pulse, icon, title, animated status dot, tech pills, description, star line |
 | `skill-radar-purple.svg` | 450×450 | 12-axis radar chart with morphing polygon, rotating rings, proficiency dots |
 | `code-animation-purple.svg` | 700×220 | Terminal animation with 17 lines of TypeScript/React code typing sequentially |
 | `particles-purple.svg` | 1200×220 | Multi-layer particle background with 5 color gradients, floating symbols, circuit lines |
@@ -96,7 +96,7 @@ Current theme: `tokyonight` with custom purple colors matching the profile theme
 - [ ] Discord invite link (currently placeholder)
 - [ ] Twitter/X handle (currently placeholder)
 - [ ] Project descriptions — add real descriptions to each repo
-- [ ] Add screenshots/GIFs to project cards (optional but recommended)
+- [ ] Add screenshots/GIFs to project cards (optional but recommended) — drop images into `assets/screenshots/` and swap the pinned-card images in the README with `<img src="assets/screenshots/your-shot.png" />`
 
 ### Add to Repos (for better project cards):
 For each featured repo, add:

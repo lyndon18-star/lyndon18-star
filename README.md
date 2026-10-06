@@ -13,7 +13,7 @@
 </h1>
 
 <p align="center">
-  <img src="assets/typewriter-tagline-purple.svg?v=2" alt="Tagline" width="100%" />
+  <img src="assets/typewriter-tagline-purple.svg?v=3" alt="Tagline" width="100%" />
 </p>
 
 <p align="center">
@@ -161,27 +161,41 @@ const me: Developer = {
 ## 🚀 Featured Projects
 
 <p align="center">
-  <a href="https://github.com/lyndon18-star/FIXKO_PROJECT">
-    <img src="assets/project-card-purple.svg?v=2" alt="Featured project: FIXKO PROJECT" width="100%" />
+  <a href="https://github.com/lyndon18-star/MUSEUM">
+    <img src="assets/project-card-purple.svg?v=3" alt="Featured project: MUSEUM" width="100%" />
   </a>
 </p>
 
 <p align="center">
-  <i>Featuring <b>FIXKO PROJECT</b> — my most recently updated build. Expand the lineup below for more.</i>
+  <i>Featuring <b>MUSEUM</b> — a vanilla JavaScript web build. Pinned lineup below with live stats.</i>
 </p>
 
-<details>
-  <summary><b>Featured project lineup</b></summary>
-
-| Project | Tech Stack | Status |
-|---------|------------|--------|
-| **[FIXKO_PROJECT](https://github.com/lyndon18-star/FIXKO_PROJECT)** | CSS, TypeScript, HTML, PHP | 🟢 Active |
-| **[MUSEUM](https://github.com/lyndon18-star/MUSEUM)** | JavaScript | 🟢 Active |
-| **[parakay-lalove](https://github.com/lyndon18-star/parakay-lalove)** | JavaScript | 🟢 Active |
-| **[LAUNDRY](https://github.com/lyndon18-star/LAUNDRY)** | In planning | 🟡 WIP |
-| **[BADAP](https://github.com/lyndon18-star/BADAP)** | In planning | 🟡 WIP |
-
-</details>
+<table>
+  <tr>
+    <td width="50%">
+      <a href="https://github.com/lyndon18-star/FIXKO_PROJECT">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=lyndon18-star&repo=FIXKO_PROJECT&title_color=A855F7&icon_color=22D3EE&text_color=CBD5E1&bg_color=1A0F2E&border_color=3D2A5C" alt="Pinned: FIXKO_PROJECT" width="100%" />
+      </a>
+    </td>
+    <td width="50%">
+      <a href="https://github.com/lyndon18-star/SYSTEM-20">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=lyndon18-star&repo=SYSTEM-20&title_color=A855F7&icon_color=22D3EE&text_color=CBD5E1&bg_color=1A0F2E&border_color=3D2A5C" alt="Pinned: SYSTEM-20" width="100%" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <a href="https://github.com/lyndon18-star/parakay-lalove">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=lyndon18-star&repo=parakay-lalove&title_color=A855F7&icon_color=22D3EE&text_color=CBD5E1&bg_color=1A0F2E&border_color=3D2A5C" alt="Pinned: parakay-lalove" width="100%" />
+      </a>
+    </td>
+    <td width="50%">
+      <a href="https://github.com/lyndon18-star/MUSEUM">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=lyndon18-star&repo=MUSEUM&title_color=A855F7&icon_color=22D3EE&text_color=CBD5E1&bg_color=1A0F2E&border_color=3D2A5C" alt="Pinned: MUSEUM" width="100%" />
+      </a>
+    </td>
+  </tr>
+</table>
 
 <p align="center">
   <a href="https://github.com/lyndon18-star?tab=repositories">
