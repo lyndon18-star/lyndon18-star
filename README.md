@@ -24,10 +24,10 @@
   <a href="https://github.com/lyndon18-star">
     <img src="https://img.shields.io/badge/GitHub-lyndon18%2Dstar-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
-  <a href="https://www.linkedin.com/in/lyndon-bautista-3a8b2b254/">
+  <a href="https://www.linkedin.com/in/lyndon-bautista-abb580395/">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-06B6D4?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="mailto:lyndon.bautista@student.com">
+  <a href="mailto:lyndonbtst@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contact-C026D3?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </p>
@@ -210,7 +210,7 @@ const me: Developer = {
 ## 📈 Contribution Activity
 
 <p align="center">
-  <a href="https://github.com/lyndon18-star?tab=overview&from=2025-01-01&to=2025-12-31">
+  <a href="https://github.com/lyndon18-star?tab=overview">
     <img src="https://img.shields.io/badge/View%20my%20contributions-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="View GitHub contributions" />
   </a>
 </p>
@@ -243,10 +243,10 @@ const me: Developer = {
   <a href="https://github.com/lyndon18-star">
     <img src="https://img.shields.io/badge/GitHub-Follow-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Follow on GitHub" />
   </a>
-  <a href="https://www.linkedin.com/in/lyndon-bautista-3a8b2b254/">
+  <a href="https://www.linkedin.com/in/lyndon-bautista-abb580395/">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-06B6D4?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" />
   </a>
-  <a href="mailto:lyndon.bautista@student.com">
+  <a href="mailto:lyndonbtst@gmail.com">
     <img src="https://img.shields.io/badge/Email-Say%20Hi-C026D3?style=for-the-badge&logo=gmail&logoColor=white" alt="Send Email" />
   </a>
 </p>
