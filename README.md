@@ -13,7 +13,7 @@
 </h1>
 
 <p align="center">
-  <img src="assets/tech-wave-purple.svg" alt="tech wave" width="100%" />
+  <img src="assets/typewriter-tagline-purple.svg" alt="Tagline" width="100%" />
 </p>
 
 <p align="center">
@@ -160,13 +160,26 @@ const me: Developer = {
 
 ## 🚀 Featured Projects
 
-| Project | Description | Tech Stack | Status |
-|---------|-------------|------------|--------|
-| **Purple Portfolio** | Personal portfolio with animated purple theme, particle systems, and smooth transitions | Next.js, TypeScript, Framer Motion, Tailwind | 🟢 Active |
-| **CodeCat CLI** | Developer productivity tool with purple-themed terminal UI and plugin system | Rust, Clap, Tokio, Crossterm | 🟡 WIP |
-| **Violet UI Kit** | Accessible component library with purple design tokens and dark mode first | React, TypeScript, Storybook, Tailwind | 🟢 Active |
-| **Particle Playground** | Interactive canvas particle system with violet color presets and motion-rich scenes | TypeScript, Canvas API, WebGL | 🟢 Active |
-| **DevTools Purple** | VS Code extension with productivity snippets, themes, and workflow shortcuts | TypeScript, VS Code API, Webpack | 🟡 WIP |
+<p align="center">
+  <img src="assets/project-card-purple.svg" alt="Featured project card" width="100%" />
+</p>
+
+<p align="center">
+  <i>Compact project cards with glow pulse, tech pills, status dot, and quick stats. Replace the placeholder copy inside `assets/project-card-purple.svg` for each featured repo.</i>
+</p>
+
+<details>
+  <summary><b>Featured project lineup</b></summary>
+
+| Project | Tech Stack | Status |
+|---------|------------|--------|
+| **Purple Portfolio** | Next.js, TypeScript, Framer Motion, Tailwind | 🟢 Active |
+| **CodeCat CLI** | Rust, Clap, Tokio, Crossterm | 🟡 WIP |
+| **Violet UI Kit** | React, TypeScript, Storybook, Tailwind | 🟢 Active |
+| **Particle Playground** | TypeScript, Canvas API, WebGL | 🟢 Active |
+| **DevTools Purple** | TypeScript, VS Code API, Webpack | 🟡 WIP |
+
+</details>
 
 <p align="center">
   <a href="https://github.com/lyndon18-star?tab=repositories">

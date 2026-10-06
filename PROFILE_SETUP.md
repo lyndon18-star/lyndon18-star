@@ -14,7 +14,8 @@ This repository (`lyndon18-star`) is your **GitHub Profile README** — it rende
 | Live Code Typing Animation | ✅ Live |
 | Multi-layer Particle Background | ✅ Live |
 | Floating Badge System | ✅ Live |
-| Featured Projects Table | ✅ Live |
+| Featured Projects Table | ✅ Updated |
+| Typewriter Tagline | ✅ New |
 | Skillicons Tech Stack | ✅ Live |
 | GitHub Stats / Streak / Top Languages | ✅ Live |
 | Contribution Activity Graph | ✅ Live |
@@ -73,10 +74,12 @@ Current theme: `tokyonight` with custom purple colors matching the profile theme
 
 | Asset | Dimensions | Description |
 |-------|------------|-------------|
-| `hero-header.svg` | 1200×280 | Animated identity badge with hexagon core, orbiting particles, circuit lines, floating code brackets |
-| `section-divider-purple.svg` | 1200×80 | Animated divider with pulsing diamond, circuit traces, floating particles |
-| `tech-wave-purple.svg` | 1200×140 | 4-layer wave divider with tech labels, pulsing nodes, geometric shapes |
-| `stats-grid-purple.svg` | 900×200 | 4 animated stat cards with glowing borders, counters, progress bars, circuit connections |
+| `hero-header.svg` | 1200×180 | Animated identity header with entrance fade, stronger glow-pulse orbs/rings, ambient code accents |
+| `typewriter-tagline-purple.svg` | 600×32 | Character-by-character typewriter reveal of "Designing full-stack; Building useful software" |
+| `section-divider-purple.svg` | 1200×60 | Animated divider with pulsing diamond, circuit traces, floating particles |
+| `tech-wave-purple.svg` | 1200×80 | 4-layer wave divider with entrance fade, stronger node pulses, tech labels, geometric shapes |
+| `stats-grid-purple.svg` | 450×110 | Compact 2×2 stat cards with entrance fade, glow pulses, counters, progress-bar fills |
+| `project-card-purple.svg` | 320×180 | Compact featured-project card with glow-border pulse, icon, title, animated status dot, tech pills, description, star line |
 | `skill-radar-purple.svg` | 450×450 | 12-axis radar chart with morphing polygon, rotating rings, proficiency dots |
 | `code-animation-purple.svg` | 700×220 | Terminal animation with 17 lines of TypeScript/React code typing sequentially |
 | `particles-purple.svg` | 1200×220 | Multi-layer particle background with 5 color gradients, floating symbols, circuit lines |
@@ -114,9 +117,11 @@ lyndon18-star/
 ├── PROFILE_SETUP.md             # This setup guide
 ├── assets/                      # Custom animated SVGs (purple theme)
 │   ├── hero-header.svg
+│   ├── typewriter-tagline-purple.svg
 │   ├── section-divider-purple.svg
 │   ├── tech-wave-purple.svg
 │   ├── stats-grid-purple.svg
+│   ├── project-card-purple.svg
 │   ├── skill-radar-purple.svg
 │   ├── code-animation-purple.svg
 │   ├── particles-purple.svg
