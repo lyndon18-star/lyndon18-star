@@ -57,35 +57,28 @@ interface Developer {
   name: string;
   role: string;
   location: string;
-  passions: string[];
+  focus: string[];
   learning: string[];
   philosophy: string;
 }
 
-const me: Developer = {
+const lyndon: Developer = {
   name: "Lyndon Bautista",
   role: "2nd Year IT Student",
   location: "Manila, Philippines 🇵🇭",
-  passions: [
-    "Creative web development",
-    "Developer experience",
-    "Productive tooling",
-    "Design-driven engineering"
-  ],
-  learning: [
-    "Advanced TypeScript",
-    "Rust systems programming",
-    "Cloud architecture",
-    "Developer tooling"
-  ],
+  focus: ["Frontend engineering", "UI/UX polish", "Dev tooling"],
+  learning: ["React", "TypeScript", "Rust"],
   philosophy: "Code should be useful, expressive, and a little bit magical."
 };
 ```
 
+> [!IMPORTANT]
+> 🚧 **Now:** building coursework projects in JavaScript & PHP · leveling up React + TypeScript · open to collaborations and internships
+
 <table>
   <tr>
     <td width="33%" valign="top">
-      <h3>🎯 Focus</h3>
+      <h3 align="center">🎯 Focus</h3>
       <ul>
         <li>Frontend architecture</li>
         <li>UI/UX polish</li>
@@ -93,7 +86,7 @@ const me: Developer = {
       </ul>
     </td>
     <td width="33%" valign="top">
-      <h3>⚡ Building</h3>
+      <h3 align="center">⚡ Building</h3>
       <ul>
         <li>Modern web apps</li>
         <li>Developer tools</li>
@@ -101,7 +94,7 @@ const me: Developer = {
       </ul>
     </td>
     <td width="33%" valign="top">
-      <h3>💡 Values</h3>
+      <h3 align="center">💡 Values</h3>
       <ul>
         <li>Readable code</li>
         <li>Clean design</li>
