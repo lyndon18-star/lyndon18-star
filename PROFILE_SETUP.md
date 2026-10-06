@@ -79,13 +79,15 @@ Current theme: `tokyonight` with custom purple colors matching the profile theme
 | `section-divider-purple.svg` | 1200×60 | Animated divider with pulsing diamond, circuit traces, floating particles |
 | `tech-wave-purple.svg` | 1200×80 | 4-layer wave divider with entrance fade, stronger node pulses, tech labels, geometric shapes |
 | `stats-grid-purple.svg` | 450×110 | Compact 2×2 stat cards with entrance fade, glow pulses, counters, progress-bar fills |
-| `project-card-purple.svg` | 320×180 | Compact featured-project card with glow-border pulse, icon, title, animated status dot, tech pills, description, star line |
+| `project-card-purple.svg` | 320×180 | Compact featured-project card (currently featuring **FIXKO_PROJECT** — real stars/tech) with glow-border pulse, icon, title, animated status dot, tech pills, description, star line |
 | `skill-radar-purple.svg` | 450×450 | 12-axis radar chart with morphing polygon, rotating rings, proficiency dots |
 | `code-animation-purple.svg` | 700×220 | Terminal animation with 17 lines of TypeScript/React code typing sequentially |
 | `particles-purple.svg` | 1200×220 | Multi-layer particle background with 5 color gradients, floating symbols, circuit lines |
 | `floating-badge-purple.svg` | 280×100 | 3 animated badges with pulsing borders, icons, floating particles |
 
 **All animations use CSS SMIL** — compatible with GitHub README rendering (no JavaScript required).
+
+**Cache-busting:** local asset URLs in `README.md` carry a `?v=2` query. When you edit an asset and GitHub keeps serving the old cached version, bump the version (`?v=3`) in the README.
 
 ## 🔧 Customization Checklist
 

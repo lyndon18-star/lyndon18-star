@@ -1,9 +1,9 @@
 ﻿<p align="center">
-  <img src="assets/hero-header.svg" alt="Lyndon Bautista - Creative Developer" width="100%" />
+  <img src="assets/hero-header.svg?v=2" alt="Lyndon Bautista - Creative Developer" width="100%" />
 </p>
 
 <p align="center">
-  <img src="assets/section-divider-purple.svg" alt="divider" width="100%" />
+  <img src="assets/section-divider-purple.svg?v=2" alt="divider" width="100%" />
 </p>
 
 <h1 align="center">
@@ -13,7 +13,7 @@
 </h1>
 
 <p align="center">
-  <img src="assets/typewriter-tagline-purple.svg" alt="Tagline" width="100%" />
+  <img src="assets/typewriter-tagline-purple.svg?v=2" alt="Tagline" width="100%" />
 </p>
 
 <p align="center">
@@ -39,7 +39,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/section-divider-purple.svg" alt="divider" width="100%" />
+  <img src="assets/section-divider-purple.svg?v=2" alt="divider" width="100%" />
 </p>
 
 ---
@@ -47,7 +47,7 @@
 ## 👋 About Me
 
 <p align="center">
-  <img src="assets/floating-badge-purple.svg" alt="floating badges" width="100%" />
+  <img src="assets/floating-badge-purple.svg?v=2" alt="floating badges" width="100%" />
 </p>
 
 I build products that feel clean, useful, and memorable. I enjoy frontend engineering, interface design, and turning ideas into thoughtful digital experiences that people actually enjoy using.
@@ -112,7 +112,7 @@ const me: Developer = {
 </table>
 
 <p align="center">
-  <img src="assets/section-divider-purple.svg" alt="divider" width="100%" />
+  <img src="assets/section-divider-purple.svg?v=2" alt="divider" width="100%" />
 </p>
 
 ---
@@ -120,7 +120,7 @@ const me: Developer = {
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img src="assets/stats-grid-purple.svg" alt="GitHub Stats Grid" width="100%" />
+  <img src="assets/stats-grid-purple.svg?v=2" alt="GitHub Stats Grid" width="100%" />
 </p>
 
 <p align="center">
@@ -133,7 +133,7 @@ const me: Developer = {
 </p>
 
 <p align="center">
-  <img src="assets/section-divider-purple.svg" alt="divider" width="100%" />
+  <img src="assets/section-divider-purple.svg?v=2" alt="divider" width="100%" />
 </p>
 
 ---
@@ -141,7 +141,7 @@ const me: Developer = {
 ## 🎯 Skills
 
 <p align="center">
-  <img src="assets/skill-radar-purple.svg" alt="Skill Radar Chart" width="100%" />
+  <img src="assets/skill-radar-purple.svg?v=2" alt="Skill Radar Chart" width="100%" />
 </p>
 
 <p align="center">
@@ -153,7 +153,7 @@ const me: Developer = {
 </p>
 
 <p align="center">
-  <img src="assets/section-divider-purple.svg" alt="divider" width="100%" />
+  <img src="assets/section-divider-purple.svg?v=2" alt="divider" width="100%" />
 </p>
 
 ---
@@ -161,11 +161,13 @@ const me: Developer = {
 ## 🚀 Featured Projects
 
 <p align="center">
-  <img src="assets/project-card-purple.svg" alt="Featured project card" width="100%" />
+  <a href="https://github.com/lyndon18-star/FIXKO_PROJECT">
+    <img src="assets/project-card-purple.svg?v=2" alt="Featured project: FIXKO PROJECT" width="100%" />
+  </a>
 </p>
 
 <p align="center">
-  <i>Compact project cards with glow pulse, tech pills, status dot, and quick stats. Replace the placeholder copy inside `assets/project-card-purple.svg` for each featured repo.</i>
+  <i>Featuring <b>FIXKO PROJECT</b> — my most recently updated build. Expand the lineup below for more.</i>
 </p>
 
 <details>
@@ -173,11 +175,11 @@ const me: Developer = {
 
 | Project | Tech Stack | Status |
 |---------|------------|--------|
-| **Purple Portfolio** | Next.js, TypeScript, Framer Motion, Tailwind | 🟢 Active |
-| **CodeCat CLI** | Rust, Clap, Tokio, Crossterm | 🟡 WIP |
-| **Violet UI Kit** | React, TypeScript, Storybook, Tailwind | 🟢 Active |
-| **Particle Playground** | TypeScript, Canvas API, WebGL | 🟢 Active |
-| **DevTools Purple** | TypeScript, VS Code API, Webpack | 🟡 WIP |
+| **[FIXKO_PROJECT](https://github.com/lyndon18-star/FIXKO_PROJECT)** | CSS, TypeScript, HTML, PHP | 🟢 Active |
+| **[MUSEUM](https://github.com/lyndon18-star/MUSEUM)** | JavaScript | 🟢 Active |
+| **[parakay-lalove](https://github.com/lyndon18-star/parakay-lalove)** | JavaScript | 🟢 Active |
+| **[LAUNDRY](https://github.com/lyndon18-star/LAUNDRY)** | In planning | 🟡 WIP |
+| **[BADAP](https://github.com/lyndon18-star/BADAP)** | In planning | 🟡 WIP |
 
 </details>
 
@@ -188,7 +190,7 @@ const me: Developer = {
 </p>
 
 <p align="center">
-  <img src="assets/section-divider-purple.svg" alt="divider" width="100%" />
+  <img src="assets/section-divider-purple.svg?v=2" alt="divider" width="100%" />
 </p>
 
 ---
@@ -196,11 +198,11 @@ const me: Developer = {
 ## 💻 Live Coding Session
 
 <p align="center">
-  <img src="assets/code-animation-purple.svg" alt="Live Code Animation" width="100%" />
+  <img src="assets/code-animation-purple.svg?v=2" alt="Live Code Animation" width="100%" />
 </p>
 
 <p align="center">
-  <img src="assets/section-divider-purple.svg" alt="divider" width="100%" />
+  <img src="assets/section-divider-purple.svg?v=2" alt="divider" width="100%" />
 </p>
 
 ---
@@ -214,7 +216,7 @@ const me: Developer = {
 </p>
 
 <p align="center">
-  <img src="assets/tech-wave-purple.svg" alt="tech wave" width="100%" />
+  <img src="assets/tech-wave-purple.svg?v=2" alt="tech wave" width="100%" />
 </p>
 
 ---
@@ -226,7 +228,7 @@ const me: Developer = {
 </p>
 
 <p align="center">
-  <img src="assets/particles-purple.svg" alt="Particle Background" width="100%" />
+  <img src="assets/particles-purple.svg?v=2" alt="Particle Background" width="100%" />
 </p>
 
 ---
@@ -234,7 +236,7 @@ const me: Developer = {
 ## 🤝 Connect
 
 <p align="center">
-  <img src="assets/floating-badge-purple.svg" alt="Connect badges" width="100%" />
+  <img src="assets/floating-badge-purple.svg?v=2" alt="Connect badges" width="100%" />
 </p>
 
 <p align="center">
@@ -254,5 +256,5 @@ const me: Developer = {
 </p>
 
 <p align="center">
-  <img src="assets/section-divider-purple.svg" alt="divider" width="100%" />
+  <img src="assets/section-divider-purple.svg?v=2" alt="divider" width="100%" />
 </p>
